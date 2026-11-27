@@ -1,0 +1,27 @@
+// Optional read-only Windows acceptance capture. No inputs/model edits.
+using System;
+using System.IO;
+using System.Collections.Generic;
+using UnityEngine;
+namespace ElswordPixel {
+ [Serializable] public sealed class DragonNestWindowsVisualEvidenceV20 {
+  public string schema="dragon-nest-packaged-natural-visual-counters-v20",scope="Observed packaged Player presentation; not all source particles/poses claimed observed.",cameraPolicy="original615 FOV70/upY/roll0 Point25 billboard display adapter; native matrix unmeasured",skyPolicy="exact Stage1 Sky36vertices CullFront only";
+  public bool victory,directorActive;public int room,kills,hits,mainEffectDraws,mainHeldDraws,particleDraws,particleKinds,heldPlaneEvents,geyserWarnings,geyserFires,countdownDraws,directorDraws,directorCameraFrames,directorRestores,directorCaptions;public float modelTime,directorAge;public string[] captured;public DragonNestDirectorCaptionRecordV20[] captionRecords;
+ }
+ [Serializable] public sealed class DragonNestWindowsProjectionV20 {public string scope="Actual packaged source actor center after production FinishNativeProjection, not native projection parity.";public float modelTime,age,depth;public int room,sourceFrame;public bool directorActive;public Vector3 actualViewport,expectedViewport;public Rect bodyViewportBounds;}
+ public sealed partial class DemoScene {
+  readonly HashSet<string> dragonWindowsCapturesV20=new HashSet<string>();readonly Dictionary<int,float> dragonWindowsRoomEntriesV20=new Dictionary<int,float>();float dragonWindowsLastReportV20=-100;
+  void ResetDragonNestPackagedCaptureV20(){dragonWindowsCapturesV20.Clear();dragonWindowsRoomEntriesV20.Clear();dragonWindowsLastReportV20=-100;}
+  void CapturePackagedDragonNestViewV20(string name){Capture(name);var sprite=DragonNestDirectorRendererV20;var report=new DragonNestWindowsProjectionV20{modelTime=game.elapsed,room=game.room,age=DragonNestDirectorAgeV20,depth=DragonNestDirectorNativeDepthV20,sourceFrame=DragonNestDirectorFrameIndexV20,directorActive=DragonNestDirectorActiveV20,actualViewport=sprite&&worldCamera?worldCamera.WorldToViewportPoint(sprite.transform.position):Vector3.zero,expectedViewport=sprite&&nativeCamera?nativeCamera.WorldToViewportPoint(DragonNestDirectorNativeCenterV20):Vector3.zero,bodyViewportBounds=DragonNestDirectorViewportBoundsV20};File.WriteAllText(Path.Combine(captureDir,name+".source-visual.json"),JsonUtility.ToJson(report,true));}
+  void MaybeCapturePackagedDragonNestV20(){
+   if(Environment.GetEnvironmentVariable("EL_DRAGON_WINDOWS_VISUAL_EVIDENCE")!="1"||!dragonNestPackagedConfiguredV20||!adventureStarted||CurrentNpcContentSet==null||CurrentNpcContentSet.sourceDungeon!=DragonNestSourceDungeonV20||!string.IsNullOrEmpty(openMenu))return;
+   float entry;if(!dragonWindowsRoomEntriesV20.TryGetValue(game.room,out entry)){entry=game.elapsed;dragonWindowsRoomEntriesV20.Add(game.room,entry);}foreach(int seconds in new[]{3,10})if(game.elapsed-entry>=seconds&&dragonWindowsCapturesV20.Add("room-"+game.room+"-stable-"+seconds))CapturePackagedDragonNestViewV20("dragon-room-"+(game.room+1)+"-stable-"+seconds+"s");
+   if(DragonNestDirectorActiveV20){float age=DragonNestDirectorAgeV20;string shot=age<1?"start":age>=10?"before-release":age>=5&&age<6?"middle":null;if(shot!=null&&dragonWindowsCapturesV20.Add("director-"+shot))CapturePackagedDragonNestViewV20("dragon-director-"+shot);}
+   foreach(var e in game.dragonSourceEventsV20){float age=game.elapsed-e.time;if(Math.Abs(e.x-game.player.x)>360||Math.Abs(e.y-game.player.y)>170)continue;
+    if(e.type=="source-geyser-attack"&&DragonNestGeyserVisibleSpriteCountV20>0){string phase=age>=.2f&&age<.65f?"warning":age>=3.15f&&age<3.65f?"fire":null;if(phase!=null&&dragonWindowsCapturesV20.Add("geyser-"+game.room+"-"+phase))CapturePackagedDragonNestViewV20("dragon-geyser-room-"+(game.room+1)+"-"+phase);}
+    if(e.type=="source-effect"&&e.source=="DamageEffect_LIZARDMAN_SHAMAN_KING_SPECIAL_ATTACK_A"&&age>=.15f&&age<1.2f&&DragonNestMainMeshLiveEffectsV20>0&&!DragonNestDirectorActiveV20&&dragonWindowsCapturesV20.Add("king-triple-geyser"))CapturePackagedDragonNestViewV20("dragon-king-triple-geyser");
+   }
+   if(game.elapsed-dragonWindowsLastReportV20>=1||game.victory){dragonWindowsLastReportV20=game.elapsed;var shots=new string[dragonWindowsCapturesV20.Count];dragonWindowsCapturesV20.CopyTo(shots);var report=new DragonNestWindowsVisualEvidenceV20{victory=game.victory,room=game.room,kills=game.kills,hits=game.hits,modelTime=game.elapsed,directorActive=DragonNestDirectorActiveV20,directorAge=DragonNestDirectorAgeV20,mainEffectDraws=DragonNestMainMeshEffectDrawFramesV20,mainHeldDraws=DragonNestMainMeshHeldDrawFramesV20,particleDraws=DragonNestEffectParticleDrawFramesV20,particleKinds=DragonNestEffectParticleKindsDrawnV20,heldPlaneEvents=DragonNestEffectParticleHeldBindingEventsV20,geyserWarnings=DragonNestGeyserWarningSequencesV20,geyserFires=DragonNestGeyserFireSequencesV20,countdownDraws=DragonNestCountdownDrawCountV20,directorDraws=DragonNestDirectorDrawFramesV20,directorCameraFrames=DragonNestDirectorCameraFramesV20,directorRestores=DragonNestDirectorRestoreCountV20,directorCaptions=DragonNestDirectorCaptionsV20.Count,captionRecords=DragonNestDirectorCaptionsV20.ToArray(),captured=shots};Directory.CreateDirectory(captureDir);File.WriteAllText(Path.Combine(captureDir,"dragon-packaged-visual-evidence.json"),JsonUtility.ToJson(report,true));}
+  }
+ }
+}

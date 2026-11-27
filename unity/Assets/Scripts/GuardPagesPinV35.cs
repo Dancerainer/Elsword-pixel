@@ -1,0 +1,1 @@
+namespace ElswordPixel { internal static class GuardPagesPinV35 { internal const string Sha="db79ee6e65e22dcf52cb6f0930ce7c99890bbc7c916d2ee7aedb2164dbf4e52f",DepthSha="6b69c88a8bc942490cced92bd4f0bbd9267a7e25405a629869c0db10a1c12458",PoseSha="1d9286def6832bef7b0a21392199382f2e1851de9ded1954651cb319746a6d4b"; } }

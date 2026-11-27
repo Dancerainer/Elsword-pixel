@@ -1,0 +1,2 @@
+# Source/evidence consumers validate exact bytes. Never normalize line endings.
+* -text

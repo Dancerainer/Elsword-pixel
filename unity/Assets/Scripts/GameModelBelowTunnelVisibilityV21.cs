@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Security.Cryptography;
+namespace ElswordPixel {
+ [Serializable] public sealed class BelowVisibleStateV21 {public string state,animation,motionEndTarget,timeOverTarget,enterShowCallback,exitShowCallback;public float duration,timeOver;public bool loop,showSpecified,show,neverMove,enterShowValue,exitShowValue;}
+ [Serializable] public sealed class BelowVisibleProfileV21 {public string npc,initialState,deathState,damageState;public bool fixedIndependentPart,invisibleHelper,gaugeSpecified,gauge;public BelowVisibleStateV21[] states;}
+ [Serializable] public sealed class BelowVisibilityDocumentV21 {public string schema,sourceRulesSha256,policy;public BelowVisibleProfileV21[] rows;}
+ [Serializable] public sealed class BelowVisibilityEventV21 {public string type,npc,state,source;public int room,actor;public float time;public bool visible,aiEnabled;}
+ [Serializable] public sealed class BelowPresentationV21 {public bool visible=true,gauge=true,sourceShowKnown;public string source,state;}
+ public static class BelowTunnelPresentationGateV21 {public static void Apply(GameModel game,Enemy e,ref bool visible,ref bool gauge){BelowPresentationV21 p;if(game.TryBelowTunnelPresentationV21(e,out p)){visible=visible&&p.visible;gauge=gauge&&p.gauge&&p.visible;}}}
+ public sealed partial class GameModel {
+  const string BelowVisibilityReceiptV21="4d33d8eb0033d6148ca173070f5983dc4cbecc24556e9cdb9ecbdc341ca95bd0";
+  const string BelowVisibilityPolicyV21="explicit-source-SHOW-and-registered-SetShow; absent-SHOW-keeps-last-observed-value-or-existing-visible-default; independent-NEVER_MOVE-part-graph-without-ai-or-parent-mutation; raw-source-ACTIVE-is-not-a-render-hide";
+  BelowVisibilityDocumentV21 belowVisibilityV21;
+  sealed class BelowVisibilityActorV21 {internal bool known,visible=true,initialized,deadObserved;internal string source,state;internal double age;}
+  readonly Dictionary<Enemy,BelowVisibilityActorV21> belowVisibilityActorsV21=new Dictionary<Enemy,BelowVisibilityActorV21>();
+  public readonly List<BelowVisibilityEventV21> belowVisibilityEventsV21=new List<BelowVisibilityEventV21>();
+  public int BelowVisibilityActorCountV21 {get{return belowVisibilityActorsV21.Count;}}
+  static string BelowVisibilityHashV21(BelowVisibilityDocumentV21 d){var a=new List<string>{d.schema,d.sourceRulesSha256,d.policy};foreach(var p in d.rows){a.AddRange(new[]{p.npc,p.initialState,p.deathState,p.damageState,FortBoolV20(p.fixedIndependentPart),FortBoolV20(p.invisibleHelper),FortBoolV20(p.gaugeSpecified),FortBoolV20(p.gauge)});foreach(var s in p.states)a.AddRange(new[]{s.state,s.animation,s.motionEndTarget,s.timeOverTarget,s.enterShowCallback,s.exitShowCallback,FortBitsV20(s.duration),FortBitsV20(s.timeOver),FortBoolV20(s.loop),FortBoolV20(s.showSpecified),FortBoolV20(s.show),FortBoolV20(s.neverMove),FortBoolV20(s.enterShowValue),FortBoolV20(s.exitShowValue)});}using(var h=SHA256.Create())return BitConverter.ToString(h.ComputeHash(Encoding.UTF8.GetBytes(string.Join("\n",a.ToArray())+"\n"))).Replace("-","").ToLowerInvariant();}
+  public void SetBelowTunnelVisibilityV21(BelowVisibilityDocumentV21 d){
+   if(d!=null&&string.IsNullOrEmpty(d.schema)&&string.IsNullOrEmpty(d.sourceRulesSha256)&&string.IsNullOrEmpty(d.policy)&&(d.rows==null||d.rows.Length==0))d=null;
+   if(d!=null){if(d.schema!="below-tunnel-source-visibility-and-independent-part-graph-v21"||d.sourceRulesSha256!="479a89b87a2e69732532ce978e3802d0047b434f2efd17785ebdc1c093233dcb"||d.policy!=BelowVisibilityPolicyV21||d.rows==null||d.rows.Length!=24)throw new ArgumentException("Invalid Below Tunnel visibility source binding");var ids=new HashSet<string>();int states=0;foreach(var p in d.rows){NpcDefinition profile;if(p==null||!ids.Add(p.npc)||!npcDefinitions.TryGetValue(p.npc,out profile)||p.states==null||p.states.Length!=profile.states.Length||!npcStates.ContainsKey(p.npc+"/"+p.initialState))throw new ArgumentException("Missing original visibility profile/initial state");foreach(var s in p.states){NpcStateDefinition state;if(s==null||!npcStates.TryGetValue(p.npc+"/"+s.state,out state)||s.animation!=state.sourceAnimation||s.duration!=state.duration||s.loop!=state.loop||p.fixedIndependentPart&&!s.neverMove)throw new ArgumentException("Changed original visibility state/clock/NEVER_MOVE");states++;}}if(states!=279||BelowVisibilityHashV21(d)!=BelowVisibilityReceiptV21)throw new ArgumentException("Changed source visibility/declaration/registration receipt");}
+   belowVisibilityV21=d;ClearBelowTunnelVisibilityV21();
+  }
+  void ClearBelowTunnelVisibilityV21(){belowVisibilityActorsV21.Clear();belowVisibilityEventsV21.Clear();}
+  BelowVisibleProfileV21 BelowVisibleProfileForV21(Enemy e){return belowVisibilityV21==null||e==null?null:Array.Find(belowVisibilityV21.rows,p=>p.npc==e.sourceNPC);}
+  bool BelowVisibilityPreservePartAiV21(Enemy e){var p=BelowVisibleProfileForV21(e);return p!=null&&p.fixedIndependentPart;}
+  BelowVisibilityActorV21 BelowVisibleActorForV21(Enemy e){BelowVisibilityActorV21 a;if(!belowVisibilityActorsV21.TryGetValue(e,out a)){a=new BelowVisibilityActorV21();belowVisibilityActorsV21.Add(e,a);}return a;}
+  void BelowVisibilityEventForV21(Enemy e,string type,string source,bool visible){if(belowVisibilityEventsV21.Count>=2048)belowVisibilityEventsV21.RemoveAt(0);belowVisibilityEventsV21.Add(new BelowVisibilityEventV21{type=type,npc=e.sourceNPC,state=e.npcState,source=source,visible=visible,time=elapsed,room=room,actor=NpcSoundActorId(e),aiEnabled=e.aiEnabled});}
+  void SetBelowSourceShownV21(Enemy e,bool value,string callback){if(BelowVisibleProfileForV21(e)==null)return;var a=BelowVisibleActorForV21(e);a.known=true;a.visible=value;a.source=callback;BelowVisibilityEventForV21(e,"source-SetShow",callback,value);}
+  void OnBelowVisibilityStateEnteredV21(Enemy e,NpcStateDefinition state){var p=BelowVisibleProfileForV21(e);if(p==null)return;var a=BelowVisibleActorForV21(e);a.initialized=true;a.state=state.id;a.age=0;var s=Array.Find(p.states,r=>r.state==state.id);if(s==null)return;if(s.showSpecified){a.known=true;a.visible=s.show;a.source=state.id+".SHOW";BelowVisibilityEventForV21(e,"source-state-SHOW",a.source,a.visible);}if(!string.IsNullOrEmpty(s.enterShowCallback))SetBelowSourceShownV21(e,s.enterShowValue,s.enterShowCallback);}
+  void OnBelowVisibilityStateExitedV21(Enemy e,NpcStateDefinition state){var p=BelowVisibleProfileForV21(e);if(p==null||state==null)return;var s=Array.Find(p.states,r=>r.state==state.id);if(s!=null&&!string.IsNullOrEmpty(s.exitShowCallback))SetBelowSourceShownV21(e,s.exitShowValue,s.exitShowCallback);}
+  void OnBelowVisibilityInterruptedV21(Enemy e){var p=BelowVisibleProfileForV21(e);if(p==null||e.hp>0)return;var a=BelowVisibleActorForV21(e);if(a.deadObserved)return;a.deadObserved=true;var s=Array.Find(p.states,r=>r.state==p.deathState);if(s!=null&&!string.IsNullOrEmpty(s.enterShowCallback))SetBelowSourceShownV21(e,s.enterShowValue,s.enterShowCallback);}
+  public bool TryBelowTunnelPresentationV21(Enemy e,out BelowPresentationV21 result){result=new BelowPresentationV21();var p=BelowVisibleProfileForV21(e);if(p==null)return false;BelowVisibilityActorV21 a;belowVisibilityActorsV21.TryGetValue(e,out a);string id=string.IsNullOrEmpty(e.npcState)?p.initialState:e.npcState;var s=Array.Find(p.states,r=>r.state==id);result.state=id;if(a!=null&&a.known){result.visible=a.visible;result.sourceShowKnown=true;result.source=a.source;}else if(s!=null&&s.showSpecified){result.visible=s.show;result.sourceShowKnown=true;result.source=s.state+".SHOW";}else result.source="existing-visible-default; source SHOW absent";
+   // Invisible helper classification comes from the exact absence of original
+   // render parts; it does not infer any source ACTIVE or AI mutation.
+   BelowBombActorV20 bomb;if(belowBombV20!=null&&belowBombActorsV20.TryGetValue(e,out bomb)&&bomb.initialized){result.visible=bomb.shown;result.sourceShowKnown=true;result.source="sourceBelowBomb.InitSelfBomb/SelfBomb.SetShow";}
+   if(p.invisibleHelper){result.visible=false;result.source="original-zero-render-body-helper";}result.gauge=(!p.gaugeSpecified||p.gauge)&&result.visible;return true;
+  }
+  bool TickBelowFortPartLifecycleV21(Enemy e,NpcDefinition profile,float dt){var p=BelowVisibleProfileForV21(e);if(p==null||!p.fixedIndependentPart)return false;if(!e.active||e.dormant)return true;var a=BelowVisibleActorForV21(e);
+   if(!a.initialized){EnterNpcState(e,npcStates[p.npc+"/"+p.initialState]);a=BelowVisibleActorForV21(e);BelowVisibilityEventForV21(e,"source-independent-part-initial-state",p.initialState,a.visible);}
+   if(e.hitPause>0){float frozen=Math.Min(dt,e.hitPause);e.hitPause-=frozen;dt-=frozen;if(dt<=.000001f)return true;}
+   if(e.hp<=0){OnBelowVisibilityInterruptedV21(e);if(!string.IsNullOrEmpty(p.deathState)&&e.npcState!=p.deathState)EnterNpcState(e,npcStates[p.npc+"/"+p.deathState]);e.deathTime+=dt;}else if(e.state!=CombatState.Normal&&!string.IsNullOrEmpty(p.damageState)){e.state=CombatState.Normal;e.stun=e.downTime=e.recoveryTime=0;e.knockdownOnLanding=false;EnterNpcState(e,npcStates[p.npc+"/"+p.damageState]);}
+   var state=NpcState(e);if(state==null)return true;var row=Array.Find(p.states,s=>s.state==state.id);if(row==null)throw new InvalidOperationException("Unbound original independent part state");float from=e.npcTime,to=Math.Min(state.duration,from+dt);AttachNpcEffectSets(e,state,from,to,elapsed-dt);AdvanceBelowFxV20(e,state,from,to,elapsed-dt);AdvanceNpcDamageCallbacks(e,state,from,to);AdvancePassagePose(e,state,dt,elapsed-dt);a.age+=dt;e.vx=e.vy=0;
+   if(e.hp<=0)return true;string next=null;if(!string.IsNullOrEmpty(row.timeOverTarget)&&a.age>row.timeOver+.00001f)next=row.timeOverTarget;else if(!string.IsNullOrEmpty(row.motionEndTarget)&&a.age+.000001f>=state.duration)next=row.motionEndTarget;
+   if(next!=null){EnterNpcState(e,npcStates[p.npc+"/"+next]);BelowVisibilityEventForV21(e,"source-independent-part-event",next,BelowVisibleActorForV21(e).visible);}return true;
+  }
+ }
+}

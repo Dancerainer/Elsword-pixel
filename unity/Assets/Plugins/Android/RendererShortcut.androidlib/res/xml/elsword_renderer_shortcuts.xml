@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="opengl_compatibility"
+        android:shortcutShortLabel="@string/elsword_gl_shortcut_label"
+        android:shortcutLongLabel="@string/elsword_gl_shortcut_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.elswordpixel.rubenelder"
+            android:targetClass="com.unity3d.player.UnityPlayerActivity">
+            <extra android:name="unity" android:value="-force-gles31" />
+        </intent>
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,9 @@
+#if UNITY_EDITOR
+using System;using System.IO;using UnityEditor;using UnityEngine;
+namespace ElswordPixel.Editor.SharedReadyEntryGateV21 {
+ public static class Worker {
+  [Serializable] sealed class Report {public string schema="Mine2-Airship-Below-current-public-entry-gates-v21";public bool passed,actualUnity=true,actualPlayMode=false,naturalRoute=false,newMine2NaturalRunPerformed=false,newAirshipNaturalRunPerformed=false,runtimeAdmitted=false;public bool mine2AcceptedAndOldRejected,airshipAcceptedAndOldRejected,belowStillAcceptedAndOldRejected;public string mine2Failure,airshipFailure,belowFailure;}
+  public static void Run(){if(!Application.isBatchMode||EditorApplication.isPlaying||EditorApplication.isCompiling)throw new InvalidOperationException("Idle batch Editor gate required");string output=Environment.GetEnvironmentVariable("EL_SHARED_COMPAT_OUTPUT");if(string.IsNullOrEmpty(output)||Directory.Exists(output))throw new InvalidOperationException("Fresh explicit shared gate output required");Directory.CreateDirectory(output);var r=new Report();try{Mine2CompatibleInteractivePreviewLauncherV21.VerifyReadyCandidate();r.mine2AcceptedAndOldRejected=true;}catch(Exception e){r.mine2Failure=e.ToString();}try{AlteraAirshipInteractivePreviewLauncherV20.VerifyReadyCandidate();r.airshipAcceptedAndOldRejected=true;}catch(Exception e){r.airshipFailure=e.ToString();}try{BelowTunnelInteractivePreviewLauncherV21.VerifyReadyCandidate();r.belowStillAcceptedAndOldRejected=true;}catch(Exception e){r.belowFailure=e.ToString();}r.passed=r.mine2AcceptedAndOldRejected&&r.airshipAcceptedAndOldRejected&&r.belowStillAcceptedAndOldRejected;File.WriteAllText(Path.Combine(output,"report.json"),JsonUtility.ToJson(r,true));if(!r.passed)throw new InvalidDataException("One or more exact public entry gates failed; retained report contains each source contract failure");}
+ }
+}
+#endif

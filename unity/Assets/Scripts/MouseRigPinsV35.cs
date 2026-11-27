@@ -1,0 +1,1 @@
+namespace ElswordPixel { internal static class MouseRigPinsV35 { internal const string Pages="68767790e45fc722861925480b936e691fa624d72c1afe3f51d39344826579a5", Bank="09d27e1e10427ed01cb33c671cbec842334adaa5120c355408142936fdf0b933"; internal const float Height=20.1852053f; } }

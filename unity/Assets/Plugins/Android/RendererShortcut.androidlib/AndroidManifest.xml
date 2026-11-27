@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.elswordpixel.graphicsshortcut">
+    <application>
+        <!-- Unity 2022 handles the Android back key through its legacy Input module. -->
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" android:enableOnBackInvokedCallback="false">
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/elsword_renderer_shortcuts" />
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,12 @@
+/unity/Library/
+/unity/Temp/
+/unity/Logs/
+/unity/Obj/
+/unity/UserSettings/
+/unity/Builds/
+/unity/Reports/
+*.apk
+*.aab
+*.keystore
+*.p12
+*.user

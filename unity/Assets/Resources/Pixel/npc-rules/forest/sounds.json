@@ -1,0 +1,1472 @@
+{
+  "schema": "forest-source-sfx-candidate-v1",
+  "runtimeAdmitted": false,
+  "sourceMechanismsComplete": false,
+  "stateTracks": [
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "state": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+      "sourceAnimation": "AttackA_Ready",
+      "sourceAnimSpeed": 1.25,
+      "duration": 2.6933333333333334,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "FOREST_DARK_MAGICIAN_WAIT",
+          "to": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+            "rate": 100,
+            "near": 196.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_FOREST_DARK_MAGICIAN/FOREST_DARK_MAGICIAN_ATTACK_A_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "PVE_BLUE_KNIGHT_WATER_TOWER_SPECIAL_ATTACK_READY.ogg",
+          "candidateTime": 0.008,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-pve_blue_knight_water_tower_special_attack_ready"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "state": "FOREST_DARK_MAGICIAN_ATTACK_A",
+      "sourceAnimation": "AttackA_Fire",
+      "sourceAnimSpeed": 1,
+      "duration": 1.5666666666666667,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "FOREST_DARK_MAGICIAN_WAIT",
+          "to": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+            "rate": 100,
+            "near": 196.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+          "to": "FOREST_DARK_MAGICIAN_ATTACK_A",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_FOREST_DARK_MAGICIAN/FOREST_DARK_MAGICIAN_ATTACK_A/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.11,
+          "sourceName": "Conrad_The_Odd_SpecialAttackC01.ogg",
+          "candidateTime": 0.11,
+          "unscaledStateTimeAlternative": 0.11,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-conrad_the_odd_specialattackc01"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "state": "CURSE_WISP_ATTACK_A_READY",
+      "sourceAnimation": "Attack_A_Ready",
+      "sourceAnimSpeed": 1.25,
+      "duration": 2.6133333333333333,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "CURSE_WISP_WAIT",
+          "to": "CURSE_WISP_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "CURSE_WISP_ATTACK_A_READY",
+            "rate": 100,
+            "near": 112.00000000000001,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_CURSE_WISP/CURSE_WISP_ATTACK_A_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 1.1,
+          "sourceName": "Armadillo_Walk.ogg",
+          "candidateTime": 0.8800000000000001,
+          "unscaledStateTimeAlternative": 1.1,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-armadillo_walk"
+        },
+        {
+          "id": "NUI_CURSE_WISP/CURSE_WISP_ATTACK_A_READY/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 1.81,
+          "sourceName": "Armadillo_Walk.ogg",
+          "candidateTime": 1.448,
+          "unscaledStateTimeAlternative": 1.81,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-armadillo_walk"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "state": "CURSE_WISP_ATTACK_A",
+      "sourceAnimation": "Attack_A",
+      "sourceAnimSpeed": 1,
+      "duration": 2.5,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "CURSE_WISP_WAIT",
+          "to": "CURSE_WISP_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "CURSE_WISP_ATTACK_A_READY",
+            "rate": 100,
+            "near": 112.00000000000001,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "CURSE_WISP_ATTACK_A_READY",
+          "to": "CURSE_WISP_ATTACK_A",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_CURSE_WISP/CURSE_WISP_ATTACK_A/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "PunchAttack5.ogg",
+          "candidateTime": 0.01,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-punchattack5"
+        },
+        {
+          "id": "NUI_CURSE_WISP/CURSE_WISP_ATTACK_A/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.11,
+          "sourceName": "ArmadilloKing_Walk.ogg",
+          "candidateTime": 0.11,
+          "unscaledStateTimeAlternative": 0.11,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-armadilloking_walk"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "state": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+      "sourceAnimation": "Attack_A_Ready",
+      "sourceAnimSpeed": 1.25,
+      "duration": 2.3466666666666667,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_KNIGHT_WAIT",
+          "to": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+            "rate": 100,
+            "near": 140.0,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_KNIGHT/ANGER_FOREST_KNIGHT_ATTACK_A_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.4,
+          "sourceName": "Cactus_Fire_RollingAttackReady.ogg",
+          "candidateTime": 0.32,
+          "unscaledStateTimeAlternative": 0.4,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-cactus_fire_rollingattackready"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_KNIGHT/ANGER_FOREST_KNIGHT_ATTACK_A_READY/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.9,
+          "sourceName": "Cactus_Fire_RollingAttackReady.ogg",
+          "candidateTime": 0.72,
+          "unscaledStateTimeAlternative": 0.9,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-cactus_fire_rollingattackready"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_KNIGHT/ANGER_FOREST_KNIGHT_ATTACK_A_READY/SOUND_PLAY2",
+          "sourceField": "SOUND_PLAY2",
+          "sourceTime": 1.4,
+          "sourceName": "Cactus_Fire_RollingAttackReady.ogg",
+          "candidateTime": 1.1199999999999999,
+          "unscaledStateTimeAlternative": 1.4,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-cactus_fire_rollingattackready"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "state": "ANGER_FOREST_KNIGHT_ATTACK_A",
+      "sourceAnimation": "Attack_A",
+      "sourceAnimSpeed": 1,
+      "duration": 1.7333333333333334,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_KNIGHT_WAIT",
+          "to": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+            "rate": 100,
+            "near": 140.0,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+          "to": "ANGER_FOREST_KNIGHT_ATTACK_A",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_KNIGHT/ANGER_FOREST_KNIGHT_ATTACK_A/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "Cactus_King_StandUp.ogg",
+          "candidateTime": 0.01,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-cactus_king_standup"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "state": "ANGER_FOREST_FAIRY_ATTACK_READY",
+      "sourceAnimation": "Attack_A_Ready",
+      "sourceAnimSpeed": 1.25,
+      "duration": 2.533333333333333,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_FAIRY_WAIT",
+          "to": "ANGER_FOREST_FAIRY_ATTACK_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_FAIRY_ATTACK_READY",
+            "rate": 100,
+            "near": 196.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_FAIRY/ANGER_FOREST_FAIRY_ATTACK_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.21,
+          "sourceName": "TreeKnight_Slash1.ogg",
+          "candidateTime": 0.16799999999999998,
+          "unscaledStateTimeAlternative": 0.21,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-treeknight_slash1"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_FAIRY/ANGER_FOREST_FAIRY_ATTACK_READY/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.81,
+          "sourceName": "TreeKnight_Slash1.ogg",
+          "candidateTime": 0.648,
+          "unscaledStateTimeAlternative": 0.81,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-treeknight_slash1"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_FAIRY/ANGER_FOREST_FAIRY_ATTACK_READY/SOUND_PLAY2",
+          "sourceField": "SOUND_PLAY2",
+          "sourceTime": 1.41,
+          "sourceName": "TreeKnight_Slash1.ogg",
+          "candidateTime": 1.128,
+          "unscaledStateTimeAlternative": 1.41,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-treeknight_slash1"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "state": "ANGER_FOREST_FAIRY_ATTACK_A",
+      "sourceAnimation": "Attack_A",
+      "sourceAnimSpeed": 1,
+      "duration": 1.1666666666666667,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_FAIRY_WAIT",
+          "to": "ANGER_FOREST_FAIRY_ATTACK_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_FAIRY_ATTACK_READY",
+            "rate": 100,
+            "near": 196.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "ANGER_FOREST_FAIRY_ATTACK_READY",
+          "to": "ANGER_FOREST_FAIRY_ATTACK_A",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_FAIRY/ANGER_FOREST_FAIRY_ATTACK_A/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.11,
+          "sourceName": "SmallPporu_Hook.ogg",
+          "candidateTime": 0.11,
+          "unscaledStateTimeAlternative": 0.11,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-smallpporu_hook"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_A_READY",
+      "sourceAnimation": "Attack_A_Ready",
+      "sourceAnimSpeed": 1,
+      "duration": 3.1666666666666665,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_ATTACK_A_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_A_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.4,
+          "sourceName": "Anger_Forest_Ent_AttackA01.ogg",
+          "candidateTime": 0.4,
+          "unscaledStateTimeAlternative": 0.4,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_forest_ent_attacka01"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_A",
+      "sourceAnimation": "Attack_A_Fire",
+      "sourceAnimSpeed": 1,
+      "duration": 3.1666666666666665,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_ATTACK_A_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_ATTACK_A_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "ANGER_FOREST_ENT_ATTACK_A_READY",
+          "to": "ANGER_FOREST_ENT_ATTACK_A",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_A/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.25,
+          "sourceName": "MagManta_DashAttack01.ogg",
+          "candidateTime": 0.25,
+          "unscaledStateTimeAlternative": 0.25,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-magmanta_dashattack01"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_A/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.25,
+          "sourceName": "Anger_Forest_Ent_AttackA02.ogg",
+          "candidateTime": 0.25,
+          "unscaledStateTimeAlternative": 0.25,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_forest_ent_attacka02"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_A/SOUND_PLAY2",
+          "sourceField": "SOUND_PLAY2",
+          "sourceTime": 1.5,
+          "sourceName": "MaGmanta_Jump01.ogg",
+          "candidateTime": 1.5,
+          "unscaledStateTimeAlternative": 1.5,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-magmanta_jump01"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_B_READY",
+      "sourceAnimation": "Attack_B_Ready",
+      "sourceAnimSpeed": 1,
+      "duration": 2.8,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_ATTACK_B_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_ATTACK_B_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_B_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.5,
+          "sourceName": "Anger_Forest_Ent_AttackA01.ogg",
+          "candidateTime": 0.5,
+          "unscaledStateTimeAlternative": 0.5,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_forest_ent_attacka01"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_B",
+      "sourceAnimation": "Attack_B_Fire",
+      "sourceAnimSpeed": 1.5,
+      "duration": 1.7333333333333334,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_ATTACK_B_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_ATTACK_B_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 101
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "ANGER_FOREST_ENT_ATTACK_B_READY",
+          "to": "ANGER_FOREST_ENT_ATTACK_B",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_B/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "Amethyst_WalkStart.ogg",
+          "candidateTime": 0.006666666666666667,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-amethyst_walkstart"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_B/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.35,
+          "sourceName": "MagManta_MagicAttackB01.ogg",
+          "candidateTime": 0.2333333333333333,
+          "unscaledStateTimeAlternative": 0.35,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-magmanta_magicattackb01"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_C_READY",
+      "sourceAnimation": "Attack_C_Ready",
+      "sourceAnimSpeed": 1,
+      "duration": 2.6,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_ATTACK_C_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_ATTACK_C_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 70
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_C_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "Anger_Forest_Ent_AttackB01.ogg",
+          "candidateTime": 0.01,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_forest_ent_attackb01"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_C",
+      "sourceAnimation": "Attack_C_Fire",
+      "sourceAnimSpeed": 1,
+      "duration": 1.5,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_ATTACK_C_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_ATTACK_C_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 70
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "ANGER_FOREST_ENT_ATTACK_C_READY",
+          "to": "ANGER_FOREST_ENT_ATTACK_C",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_ATTACK_C/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "Amethyst_MagicAttack.ogg",
+          "candidateTime": 0.01,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-amethyst_magicattack"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+      "sourceAnimation": "Special_Attack_Ready",
+      "sourceAnimSpeed": 1,
+      "duration": 4.0,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 40
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_SPECIAL_ATTACK_READY/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.01,
+          "sourceName": "Anger_Sirape_MagicAttackA01.ogg",
+          "candidateTime": 0.01,
+          "unscaledStateTimeAlternative": 0.01,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_sirape_magicattacka01"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_SPECIAL_ATTACK_READY/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.25,
+          "sourceName": "Anger_Forest_Ent_AttackA02.ogg",
+          "candidateTime": 0.25,
+          "unscaledStateTimeAlternative": 0.25,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_forest_ent_attacka02"
+        }
+      ]
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_SPECIAL_ATTACK",
+      "sourceAnimation": "Special_Attack_Fire",
+      "sourceAnimSpeed": 1,
+      "duration": 3.2333333333333334,
+      "loop": false,
+      "staticallyReachable": true,
+      "reachabilityWitness": [
+        {
+          "from": "ANGER_FOREST_ENT_WAIT",
+          "to": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+          "kind": "ordered-condition",
+          "sourceChoice": {
+            "nextState": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+            "rate": 25,
+            "near": 168.00000000000003,
+            "hpLessPercent": 40
+          },
+          "earlierEligibleRandomChoicesMayFail": true
+        },
+        {
+          "from": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+          "to": "ANGER_FOREST_ENT_SPECIAL_ATTACK",
+          "kind": "motion-end"
+        }
+      ],
+      "events": [
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_SPECIAL_ATTACK/SOUND_PLAY0",
+          "sourceField": "SOUND_PLAY0",
+          "sourceTime": 0.15,
+          "sourceName": "Amethyst_Dying_Land_Front.ogg",
+          "candidateTime": 0.15,
+          "unscaledStateTimeAlternative": 0.15,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-amethyst_dying_land_front"
+        },
+        {
+          "id": "NUI_ANGER_FOREST_ENT/ANGER_FOREST_ENT_SPECIAL_ATTACK/SOUND_PLAY1",
+          "sourceField": "SOUND_PLAY1",
+          "sourceTime": 0.35,
+          "sourceName": "Anger_Sirape_MagicAttackB01.ogg",
+          "candidateTime": 0.35,
+          "unscaledStateTimeAlternative": 0.35,
+          "candidateClock": "npc-state-pose-seconds",
+          "nativeClockOwnershipProven": false,
+          "withinOriginalAnimationAndCandidateState": true,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-anger_sirape_magicattackb01"
+        }
+      ]
+    }
+  ],
+  "effectTracks": [
+    {
+      "effect": "DamageEffect_Forest_Dark_Magician_DarkBall_S",
+      "lifetime": 0.95,
+      "staticallyReachable": true,
+      "sourceEmission": {
+        "npc": "NUI_FOREST_DARK_MAGICIAN",
+        "state": "FOREST_DARK_MAGICIAN_ATTACK_A",
+        "sourceAnimSpeed": 1,
+        "name": "DamageEffect_Forest_Dark_Magician_DarkBall_S",
+        "set": "EffectSet_FOREST_DARK_MAGICIAN_Attack_A",
+        "attachmentDelay": 0.24,
+        "localStart": 0.2,
+        "source": {
+          "NAME": "DamageEffect_Forest_Dark_Magician_DarkBall_S",
+          "POSITION_OFFSET_Y": 30,
+          "SCALE_X": 1.2,
+          "SCALE_Z": 1.2,
+          "START_TIME": 0.2,
+          "BONE_NAME": "EF_Dummy01",
+          "SCALE_Y": 1.2,
+          "EFFECT_TYPE": {
+            "$symbol": "EFFECT_TYPE.ET_DAMAGE_EFFECT",
+            "$unsupported": "native/global value not resolved"
+          }
+        },
+        "timerSemanticsPending": true,
+        "nominalIndependentClockStart": 0.44,
+        "alternativeAnimationClockStart": 0.44,
+        "clockOwnershipProven": false
+      },
+      "events": [
+        {
+          "id": "DamageEffect_Forest_Dark_Magician_DarkBall_S/SOUND0",
+          "sourceField": "SOUND0",
+          "sourceTime": 0.01,
+          "candidateTime": 0.01,
+          "sourceName": "Aisha_VP_DashJumpAttackX.ogg",
+          "candidateClock": "independent-effect-age-seconds",
+          "nativeClockOwnershipProven": false,
+          "nominalMageCastTimeInExistingAdapter": 0.45,
+          "sourceVolume": null,
+          "repeatDeclared": false,
+          "sound": "npc-aisha_vp_dashjumpattackx"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "npc-aisha_vp_dashjumpattackx",
+      "sha256": "5861170cd3b00b3e56fe72e7dce93783299cf0dc1c36e745d69006609f6efe0c",
+      "sourceNames": [
+        "Aisha_VP_DashJumpAttackX.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data069.kom\\Aisha_VP_DashJumpAttackX.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data069.kom\\Aisha_VP_DashJumpAttackX.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-aisha_vp_dashjumpattackx",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 2.5782086167800453,
+        "lastGranule": 113699,
+        "pages": 7,
+        "bytes": 23426,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-amethyst_dying_land_front",
+      "sha256": "47470cd99e9cde4343bde104d2546ff110ce2bf9134a7438bbc8aad6e080fa35",
+      "sourceNames": [
+        "Amethyst_Dying_Land_Front.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data076.kom\\Amethyst_Dying_Land_Front.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data076.kom\\Amethyst_Dying_Land_Front.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-amethyst_dying_land_front",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 1.8658049886621315,
+        "lastGranule": 41141,
+        "pages": 5,
+        "bytes": 14171,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-amethyst_magicattack",
+      "sha256": "ea7983d0251ce579ca26e66f724b2d7d91f80353fdd0a779dd69409f92857d8c",
+      "sourceNames": [
+        "Amethyst_MagicAttack.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data076.kom\\Amethyst_MagicAttack.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data076.kom\\Amethyst_MagicAttack.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-amethyst_magicattack",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 2.1473469387755104,
+        "lastGranule": 47349,
+        "pages": 6,
+        "bytes": 16703,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-amethyst_walkstart",
+      "sha256": "b37ca9decf4597b68f5e91362994da64616b12cf60b975a3369fa06607860995",
+      "sourceNames": [
+        "Amethyst_WalkStart.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data076.kom\\Amethyst_WalkStart.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data076.kom\\Amethyst_WalkStart.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-amethyst_walkstart",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 0.7675283446712018,
+        "lastGranule": 16924,
+        "pages": 4,
+        "bytes": 8267,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-anger_forest_ent_attacka01",
+      "sha256": "afdcbe81b56a9effef985eeb9a03001555ead0ebd70a3a2905dbcf479cf30c52",
+      "sourceNames": [
+        "Anger_Forest_Ent_AttackA01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data075.kom\\Anger_Forest_Ent_AttackA01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data075.kom\\Anger_Forest_Ent_AttackA01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-anger_forest_ent_attacka01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 2.4720408163265306,
+        "lastGranule": 109017,
+        "pages": 17,
+        "bytes": 64342,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-anger_forest_ent_attacka02",
+      "sha256": "2a8b185b7bcd488bf5adf2682775b1a80320edd00cfd805d81ab68168ef31ee9",
+      "sourceNames": [
+        "Anger_Forest_Ent_AttackA02.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data075.kom\\Anger_Forest_Ent_AttackA02.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data075.kom\\Anger_Forest_Ent_AttackA02.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-anger_forest_ent_attacka02",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 2.030498866213152,
+        "lastGranule": 89545,
+        "pages": 14,
+        "bytes": 55244,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-anger_forest_ent_attackb01",
+      "sha256": "13629bcdc24e77da2f07232fc2a1da3f58d915b8422ef6c751b28155c5febb56",
+      "sourceNames": [
+        "Anger_Forest_Ent_AttackB01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data075.kom\\Anger_Forest_Ent_AttackB01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data075.kom\\Anger_Forest_Ent_AttackB01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-anger_forest_ent_attackb01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 3.3381179138321997,
+        "lastGranule": 147211,
+        "pages": 7,
+        "bytes": 24310,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-anger_sirape_magicattacka01",
+      "sha256": "a45fb890491bb9dc90a154067812643f18e8565802cc5294d0f9219dba392fc1",
+      "sourceNames": [
+        "Anger_Sirape_MagicAttackA01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data138.kom\\Anger_Sirape_MagicAttackA01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data138.kom\\Anger_Sirape_MagicAttackA01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-anger_sirape_magicattacka01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 2.1474603174603173,
+        "lastGranule": 94703,
+        "pages": 7,
+        "bytes": 21195,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-anger_sirape_magicattackb01",
+      "sha256": "b56b471bc97a21eb899ad34b951dd26a8e7139af263f31b3b5fa8658e4bdc046",
+      "sourceNames": [
+        "Anger_Sirape_MagicAttackB01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data138.kom\\Anger_Sirape_MagicAttackB01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data138.kom\\Anger_Sirape_MagicAttackB01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-anger_sirape_magicattackb01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 2.79421768707483,
+        "lastGranule": 123225,
+        "pages": 8,
+        "bytes": 28091,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-armadillo_walk",
+      "sha256": "f69aebd754ddea75a626118a59c3c51b046f5cea1dfddab687581fe3e54507dd",
+      "sourceNames": [
+        "Armadillo_Walk.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\Armadillo_Walk.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\Armadillo_Walk.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-armadillo_walk",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 0.4997732426303855,
+        "lastGranule": 11020,
+        "pages": 3,
+        "bytes": 6714,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-armadilloking_walk",
+      "sha256": "2ddbb744ee765a706def012d577783475a25baa92a2f1acd7750f8052df51030",
+      "sourceNames": [
+        "ArmadilloKing_Walk.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\ArmadilloKing_Walk.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\ArmadilloKing_Walk.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-armadilloking_walk",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 0.6938775510204082,
+        "lastGranule": 15300,
+        "pages": 4,
+        "bytes": 8329,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-cactus_fire_rollingattackready",
+      "sha256": "65897b94c019aa15c4948159b690aa8898a7e305580d70fea210123e1e01811b",
+      "sourceNames": [
+        "Cactus_Fire_RollingAttackReady.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\Cactus_Fire_RollingAttackReady.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\Cactus_Fire_RollingAttackReady.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-cactus_fire_rollingattackready",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 0.43537414965986393,
+        "lastGranule": 9600,
+        "pages": 3,
+        "bytes": 6174,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-cactus_king_standup",
+      "sha256": "3fb8ca71d1a76ea3f813ea4f6ecea3f8b33021fe0924779d1708329b7faff35b",
+      "sourceNames": [
+        "Cactus_King_StandUp.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\Cactus_King_StandUp.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data073.kom\\Cactus_King_StandUp.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-cactus_king_standup",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 0.5390929705215419,
+        "lastGranule": 11887,
+        "pages": 3,
+        "bytes": 6862,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-conrad_the_odd_specialattackc01",
+      "sha256": "7196919cfd66b6a2029f32a2a4e4658fca56bd5fd2fee6bce00a757b9d06ac3a",
+      "sourceNames": [
+        "Conrad_The_Odd_SpecialAttackC01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data114.kom\\Conrad_The_Odd_SpecialAttackC01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data114.kom\\Conrad_The_Odd_SpecialAttackC01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-conrad_the_odd_specialattackc01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 1.477687074829932,
+        "lastGranule": 32583,
+        "pages": 4,
+        "bytes": 11557,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-magmanta_dashattack01",
+      "sha256": "8795a3a31e39824531ddbc9ea6d7d0a92f39a22a0452e6e17a487c7ec26af37d",
+      "sourceNames": [
+        "MagManta_DashAttack01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data127.kom\\MagManta_DashAttack01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data127.kom\\MagManta_DashAttack01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-magmanta_dashattack01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 1.561156462585034,
+        "lastGranule": 68847,
+        "pages": 6,
+        "bytes": 16579,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-magmanta_jump01",
+      "sha256": "ff10890f8b67dd04b6b9512e1ceebbebda694e0e85d65065d4878c23667f09cb",
+      "sourceNames": [
+        "MaGmanta_Jump01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data127.kom\\MaGmanta_Jump01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data127.kom\\MaGmanta_Jump01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-magmanta_jump01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 0.7061224489795919,
+        "lastGranule": 31140,
+        "pages": 4,
+        "bytes": 9523,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-magmanta_magicattackb01",
+      "sha256": "aee301772ab86f894ee6067e893f0ea007b6887e0085a304d8a8a86af8100465",
+      "sourceNames": [
+        "MagManta_MagicAttackB01.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data127.kom\\MagManta_MagicAttackB01.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data127.kom\\MagManta_MagicAttackB01.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-magmanta_magicattackb01",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 2.48984126984127,
+        "lastGranule": 109802,
+        "pages": 8,
+        "bytes": 26919,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-punchattack5",
+      "sha256": "7874a03c41f8b702a3a0bc4577b08942e3dd56ea3ceaaa87888cc80214db8a24",
+      "sourceNames": [
+        "PunchAttack5.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data070.kom\\PunchAttack5.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data070.kom\\PunchAttack5.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-punchattack5",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 0.21353741496598638,
+        "lastGranule": 9417,
+        "pages": 3,
+        "bytes": 5416,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-pve_blue_knight_water_tower_special_attack_ready",
+      "sha256": "d34d5688f645d1d68a1835fae0de7228da827079c164cf7adc5ddfec96c290a3",
+      "sourceNames": [
+        "PVE_BLUE_KNIGHT_WATER_TOWER_SPECIAL_ATTACK_READY.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data078.kom\\PVE_BLUE_KNIGHT_WATER_TOWER_SPECIAL_ATTACK_READY.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data078.kom\\PVE_BLUE_KNIGHT_WATER_TOWER_SPECIAL_ATTACK_READY.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-pve_blue_knight_water_tower_special_attack_ready",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 3.23,
+        "lastGranule": 142443,
+        "pages": 8,
+        "bytes": 25576,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-smallpporu_hook",
+      "sha256": "fab7c9a35d56f3c32dcb4ffcdc0ebf9036c8f1cd2a9cab1178d056ce675c2c10",
+      "sourceNames": [
+        "SmallPporu_Hook.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data077.kom\\SmallPporu_Hook.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data077.kom\\SmallPporu_Hook.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-smallpporu_hook",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 22050,
+        "containerDurationSeconds": 0.4395918367346939,
+        "lastGranule": 9693,
+        "pages": 3,
+        "bytes": 6509,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    },
+    {
+      "id": "npc-treeknight_slash1",
+      "sha256": "8fa09b8b4392e1de155c34b29537018e2b70521c6da433f56030f6abf87b4604",
+      "sourceNames": [
+        "TreeKnight_Slash1.ogg"
+      ],
+      "sourceCachePaths": [
+        "D:\\elsword_2016\\asset_work\\raw\\data\\data070.kom\\TreeKnight_Slash1.ogg"
+      ],
+      "existingProjectPaths": [],
+      "existingManifestBindings": [],
+      "selectedExistingPath": "D:\\elsword_2016\\asset_work\\raw\\data\\data070.kom\\TreeKnight_Slash1.ogg",
+      "reuseClass": "existing-verified-extraction-cache",
+      "resourceAlreadyStaged": false,
+      "proposedResource": "Pixel/audio/npc-treeknight_slash1",
+      "newAudioFileWritten": false,
+      "container": {
+        "codec": "Vorbis",
+        "channels": 1,
+        "sampleRate": 44100,
+        "containerDurationSeconds": 0.5416099773242631,
+        "lastGranule": 23885,
+        "pages": 4,
+        "bytes": 8114,
+        "wholeContainerParsed": true,
+        "audiblePlaybackVerified": false
+      }
+    }
+  ],
+  "sourceRulesSha256": "e3d8c379969e33d1dfb9df9a63dae75390f242de2d6a44e753cb9cb7d826af97",
+  "effectSourcesSha256": "84ce6803ac82ba28325c39b71fb77e71f8af006c4020b60baa868f5c8e4f452a",
+  "clockPolicy": {
+    "state": "Preserve original SOUND_PLAY time. Candidate state time divides by ANIM_SPEED, matching existing player-sound presentation convention. NPC native sound clock ownership is not independently established; unscaled alternative is retained.",
+    "effect": "Mage ball SOUND0 is .01 into the independent effect lifetime used by the existing candidate runner. Under its .24 attachment + .20 emission delay, nominal cast time is .45.",
+    "noRuntimeSchedulingClaim": true
+  },
+  "eventPolicy": "Resource deduplication only. Keep each original event, including repeated same-file cues at different times and Ent two-file simultaneous .25-layer. No synthesized replacements, no generic hit/hurt changes.",
+  "scope": "Static source reachability and source-audio matching only. No Unity/audio audition, original NPC voices completion, camera completion, runtime timer implementation or admission is claimed."
+}

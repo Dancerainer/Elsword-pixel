@@ -1,0 +1,105 @@
+// Generated from original INIT_STATE knockdown motion-end edges by originals.py.
+namespace ElswordPixel {
+    internal static class OriginalRecoveryV45 {
+        internal static string For(Enemy actor){
+            if(actor==null||!actor.hasOriginalHitV45)return null;
+            switch(actor.sourceNPC){
+                case "NUI_AIRSHIP_SOLDIER_GUNNER": return actor.originalHitBackV45?"AIRSHIP_SOLDIER_GUNNER_ROLLING_STAND_UP_BACK":"AIRSHIP_SOLDIER_GUNNER_ROLLING_STAND_UP_FRONT";
+                case "NUI_AIRSHIP_SOLDIER_HIGH": return actor.originalHitBackV45?"AIRSHIP_SOLDIER_HIGH_STAND_UP_BACK":"AIRSHIP_SOLDIER_HIGH_STAND_UP_FRONT";
+                case "NUI_AIRSHIP_SOLDIER_REPAIRMAN": return actor.originalHitBackV45?"AIRSHIP_SOLDIER_REPAIRMAN_STAND_UP_BACK":"AIRSHIP_SOLDIER_REPAIRMAN_STAND_UP_FRONT";
+                case "NUI_AIRSHIP_SOLDIER_SWORDMAN": return actor.originalHitBackV45?"AIRSHIP_SOLDIER_SWORDMAN_STAND_UP_BACK":"AIRSHIP_SOLDIER_SWORDMAN_STAND_UP_FRONT";
+                case "NUI_ANGER_FOREST_ENT": return actor.originalHitBackV45?"ANGER_FOREST_ENT_STAND_UP_BACK":"ANGER_FOREST_ENT_STAND_UP_FRONT";
+                case "NUI_ANGER_FOREST_FAIRY": return actor.originalHitBackV45?"ANGER_FOREST_FAIRY_STAND_UP_BACK":"ANGER_FOREST_FAIRY_STAND_UP_FRONT";
+                case "NUI_ANGER_FOREST_KNIGHT": return actor.originalHitBackV45?"ANGER_FOREST_KNIGHT_STAND_UP_BACK":"ANGER_FOREST_KNIGHT_STAND_UP_FRONT";
+                case "NUI_ARMADILLO": return actor.originalHitBackV45?"ARMADILLO_STAND_UP_BACK":"ARMADILLO_STAND_UP_FRONT";
+                case "NUI_ARMADILLO_EARTH": return actor.originalHitBackV45?"ARMADILLO_EARTH_STAND_UP_BACK":"ARMADILLO_EARTH_STAND_UP_FRONT";
+                case "NUI_BAT_A": return actor.originalHitBackV45?"BAT_A_STAND_UP_BACK":"BAT_A_STAND_UP_FRONT";
+                case "NUI_BAT_B": return actor.originalHitBackV45?"BAT_B_STAND_UP_BACK":"BAT_B_STAND_UP_FRONT";
+                case "NUI_BAT_SONIC": return actor.originalHitBackV45?"BAT_SONIC_DAMAGE_STAND_UP_BACK":"BAT_SONIC_DAMAGE_STAND_UP_FRONT";
+                case "NUI_BEE_NASOD": return actor.originalHitBackV45?"BEE_NASOD_DAMAGE_STAND_UP":"BEE_NASOD_DAMAGE_STAND_UP";
+                case "NUI_BENDERS_NORMAL": return actor.originalHitBackV45?"BENDERS_NORMAL_STAND_UP_BACK":"BENDERS_NORMAL_STAND_UP_FRONT";
+                case "NUI_BENDERS_NASOD": return actor.originalHitBackV45?"BENDERS_NASOD_STAND_UP_BACK":"BENDERS_NASOD_STAND_UP_FRONT";
+                case "NUI_BENDERS_THIEF": return actor.originalHitBackV45?"BENDERS_THIEF_STAND_UP_BACK":"BENDERS_THIEF_STAND_UP_FRONT";
+                case "NUI_BENDERS_UPGRADE_NORMAL": return actor.originalHitBackV45?"BENDERS_UPGRADE_NORMAL_STAND_UP_BACK":"BENDERS_UPGRADE_NORMAL_STAND_UP_FRONT";
+                case "NUI_CACTUS": return actor.originalHitBackV45?"CACTUS_STAND_UP_BACK":"CACTUS_STAND_UP_FRONT";
+                case "NUI_CHICKEN": return actor.originalHitBackV45?"CHICKEN_STAND_UP_BACK":"CHICKEN_STAND_UP_FRONT";
+                case "NUI_CURSE_WISP": return actor.originalHitBackV45?"CURSE_WISP_STAND_UP_BACK":"CURSE_WISP_STAND_UP_FRONT";
+                case "NUI_FAIRY_GUARDIAN": return actor.originalHitBackV45?"FAIRY_GUARDIAN_STAND_UP_BACK":"FAIRY_GUARDIAN_STAND_UP_FRONT";
+                case "NUI_FIRE_KOMODO": return actor.originalHitBackV45?"FIRE_KOMODO_STAND_UP_BACK":"FIRE_KOMODO_STAND_UP_FRONT";
+                case "NUI_FOREST_DARK_MAGICIAN": return actor.originalHitBackV45?"FOREST_DARK_MAGICIAN_STAND_UP_BACK":"FOREST_DARK_MAGICIAN_STAND_UP_FRONT";
+                case "NUI_GHOST_MAGICIAN_RAGGED": return actor.originalHitBackV45?"GHOST_MAGICIAN_STAND_UP_BACK":"GHOST_MAGICIAN_STAND_UP_FRONT";
+                case "NUI_KOMODO": return actor.originalHitBackV45?"KOMODO_STAND_UP_BACK":"KOMODO_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_HIGH": return actor.originalHitBackV45?"LIZARDMAN_HIGH_STAND_UP_BACK":"LIZARDMAN_HIGH_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_HIGH_DARK": return actor.originalHitBackV45?"LIZARDMAN_HIGH_DARK_NEW_STAND_UP_BACK":"LIZARDMAN_HIGH_DARK_NEW_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_HIGH_DARK_NEW": return actor.originalHitBackV45?"LIZARDMAN_HIGH_DARK_NEW_STAND_UP_BACK":"LIZARDMAN_HIGH_DARK_NEW_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_OLDER": return actor.originalHitBackV45?"LIZARDMAN_OLDER_STAND_UP_BACK":"LIZARDMAN_OLDER_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SAURUS": return actor.originalHitBackV45?"LIZARDMAN_SAURUS_STAND_UP_BACK":"LIZARDMAN_SAURUS_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SHAMAN": return actor.originalHitBackV45?"LIZARDMAN_SHAMAN_STAND_UP_BACK":"LIZARDMAN_SHAMAN_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SHAMAN_FIRE": return actor.originalHitBackV45?"LIZARDMAN_SHAMAN_FIRE_STAND_UP_BACK":"LIZARDMAN_SHAMAN_FIRE_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SHAMAN_KING": return actor.originalHitBackV45?"LIZARDMAN_SHAMAN_KING_STAND_UP_BACK":"LIZARDMAN_SHAMAN_KING_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SPEAR": return actor.originalHitBackV45?"LIZARDMAN_SPEAR_STAND_UP_BACK":"LIZARDMAN_SPEAR_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SPEAR_DARK": return actor.originalHitBackV45?"LIZARDMAN_SPEAR_DARK_STAND_UP_BACK":"LIZARDMAN_SPEAR_DARK_STAND_UP_FRONT";
+                case "NUI_LIZARDMAN_SPEAR_RED": return actor.originalHitBackV45?"LIZARDMAN_SPEAR_RED_STAND_UP_BACK":"LIZARDMAN_SPEAR_RED_STAND_UP_FRONT";
+                case "NUI_MONKEY_BOMB": return actor.originalHitBackV45?"MONKEY_BOMB_STAND_UP_BACK":"MONKEY_BOMB_STAND_UP_FRONT";
+                case "NUI_MOUSE": return actor.originalHitBackV45?"MOUSE_DAMAGE_STAND_UP":"MOUSE_DAMAGE_STAND_UP";
+                case "NUI_MOUSE_NODROP": return actor.originalHitBackV45?"MOUSE_NODROP_DAMAGE_STAND_UP":"MOUSE_NODROP_DAMAGE_STAND_UP";
+                case "NUI_NASOD_DRILLER_CANNON": return actor.originalHitBackV45?"NASOD_DRILLER_CANNON_STAND_UP_BACK":"NASOD_DRILLER_CANNON_STAND_UP_FRONT";
+                case "NUI_NASOD_ELEMENT_FIRE": return actor.originalHitBackV45?"NASOD_ELEMENT_FIRE_STAND_UP_BACK":"NASOD_ELEMENT_FIRE_STAND_UP_FRONT";
+                case "NUI_NASOD_ELEMENT_FIRE_B": return actor.originalHitBackV45?"NASOD_ELEMENT_FIRE_SOLO_B_STAND_UP_BACK":"NASOD_ELEMENT_FIRE_SOLO_B_STAND_UP_FRONT";
+                case "NUI_NASOD_ELEMENT_FIRE_SOLO": return actor.originalHitBackV45?"NASOD_ELEMENT_FIRE_SOLO_STAND_UP_BACK":"NASOD_ELEMENT_FIRE_SOLO_STAND_UP_FRONT";
+                case "NUI_NASOD_ELEMENT_ICE": return actor.originalHitBackV45?"NASOD_ELEMENT_ICE_STAND_UP_BACK":"NASOD_ELEMENT_ICE_STAND_UP_FRONT";
+                case "NUI_NASOD_ELEMENT_ICE_B": return actor.originalHitBackV45?"NASOD_ELEMENT_ICE_SOLO_B_STAND_UP_BACK":"NASOD_ELEMENT_ICE_SOLO_B_STAND_UP_FRONT";
+                case "NUI_NASOD_ELEMENT_ICE_SOLO": return actor.originalHitBackV45?"NASOD_ELEMENT_ICE_SOLO_STAND_UP_BACK":"NASOD_ELEMENT_ICE_SOLO_STAND_UP_FRONT";
+                case "NUI_NASOD_ELITE_GUARD": return actor.originalHitBackV45?"NASOD_ELITE_GUARD_STAND_UP_BACK":null;
+                case "NUI_NASOD_ELITE_SHERIFF": return actor.originalHitBackV45?"NASOD_ELITE_SHERIFF_STAND_UP_BACK":"NASOD_ELITE_SHERIFF_STAND_UP_FRONT";
+                case "NUI_NASOD_GUARD": return actor.originalHitBackV45?"NASOD_GUARD_STAND_UP_BACK":null;
+                case "NUI_NASOD_GUARDIAN_SMALL": return actor.originalHitBackV45?"NASOD_GUARDIAN_SMALL_STAND_UP_BACK":"NASOD_GUARDIAN_SMALL_STAND_UP_FRONT";
+                case "NUI_NASOD_HEALER": return actor.originalHitBackV45?"NASOD_HEALER_STAND_UP_BACK":"NASOD_HEALER_STAND_UP_FRONT";
+                case "NUI_NASOD_HEALER_BLADER": return actor.originalHitBackV45?"NASOD_HEALER_BLADER_STAND_UP_BACK":"NASOD_HEALER_BLADER_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_FAT_B": return actor.originalHitBackV45?"NASOD_MINER_FAT_B_STAND_UP_BACK":"NASOD_MINER_FAT_B_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_FAT_B_AIR": return actor.originalHitBackV45?"NASOD_MINER_FAT_B_AIR_STAND_UP_BACK":"NASOD_MINER_FAT_B_AIR_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_FAT_C": return actor.originalHitBackV45?"NASOD_MINER_FAT_C_STAND_UP_BACK":"NASOD_MINER_FAT_C_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_FAT_C_AIR": return actor.originalHitBackV45?"NASOD_MINER_FAT_C_AIR_STAND_UP_BACK":"NASOD_MINER_FAT_C_AIR_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_FAT_C_DEFECT": return actor.originalHitBackV45?"NASOD_MINER_FAT_C_DEFECT_STAND_UP_BACK":"NASOD_MINER_FAT_C_DEFECT_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_FAT_C_DEFECT_DIE": return actor.originalHitBackV45?"NASOD_MINER_FAT_C_DEFECT_DIE_STAND_UP_BACK":"NASOD_MINER_FAT_C_DEFECT_DIE_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_THIN": return actor.originalHitBackV45?"NASOD_MINER_THIN_STAND_UP_BACK":"NASOD_MINER_THIN_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_THIN_AIR": return actor.originalHitBackV45?"NASOD_MINER_THIN_AIR_STAND_UP_BACK":"NASOD_MINER_THIN_AIR_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_THIN_DEFECT": return actor.originalHitBackV45?"NASOD_MINER_THIN_DEFECT_STAND_UP_BACK":"NASOD_MINER_THIN_DEFECT_STAND_UP_FRONT";
+                case "NUI_NASOD_MINER_THIN_DEFECT_DIE": return actor.originalHitBackV45?"NASOD_MINER_THIN_DEFECT_DIE_STAND_UP_BACK":"NASOD_MINER_THIN_DEFECT_DIE_STAND_UP_FRONT";
+                case "NUI_NASOD_SHERIFF": return actor.originalHitBackV45?"NASOD_SHERIFF_STAND_UP_BACK":"NASOD_SHERIFF_STAND_UP_FRONT";
+                case "NUI_NASOD_SPRAY": return actor.originalHitBackV45?"NASOD_SPRAY_STAND_UP_BACK":"NASOD_SPRAY_STAND_UP_FRONT";
+                case "NUI_NASOD_SPRAY_ICE": return actor.originalHitBackV45?"NASOD_SPRAY_ICE_STAND_UP_BACK":"NASOD_SPRAY_ICE_STAND_UP_FRONT";
+                case "NUI_NASOD_WATCH": return actor.originalHitBackV45?"NASOD_WATCH_STAND_UP_BACK":"NASOD_WATCH_STAND_UP_FRONT";
+                case "NUI_PPORU_GIANT_RED": return actor.originalHitBackV45?"PPORU_GIANT_RED_STAND_UP_BACK":"PPORU_GIANT_RED_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_B": return actor.originalHitBackV45?"PPORU_WILLIAM_B_STAND_UP_BACK":"PPORU_WILLIAM_B_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_C": return actor.originalHitBackV45?"PPORU_WILLIAM_C_STAND_UP_BACK":"PPORU_WILLIAM_C_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_THIEF": return actor.originalHitBackV45?"PPORU_WILLIAM_THIEF_STAND_UP_BACK":"PPORU_WILLIAM_THIEF_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_THIEF_FIRE": return actor.originalHitBackV45?"PPORU_WILLIAM_THIEF_FIRE_STAND_UP_BACK":"PPORU_WILLIAM_THIEF_FIRE_STAND_UP_FRONT";
+                case "NUI_RAVEN": return actor.originalHitBackV45?"RAVEN_STAND_UP_BACK":"RAVEN_STAND_UP_FRONT";
+                case "NUI_RAVEN_CLONE": return actor.originalHitBackV45?"RAVEN_CLONE_STAND_UP_BACK":"RAVEN_CLONE_STAND_UP_FRONT";
+                case "NUI_RAVEN_CLONE_B": return actor.originalHitBackV45?"RAVEN_CLONE_B_STAND_UP_BACK":"RAVEN_CLONE_B_STAND_UP_FRONT";
+                case "NUI_SAURUS_HIGH": return actor.originalHitBackV45?"SAURUS_HIGH_STAND_UP_BACK":"SAURUS_HIGH_STAND_UP_FRONT";
+                case "NUI_SCORPION": return actor.originalHitBackV45?"SCORPION_STAND_UP_BACK":"SCORPION_STAND_UP_FRONT";
+                case "NUI_SCORPION_FIRE": return actor.originalHitBackV45?"SCORPION_FIRE_STAND_UP_BACK":"SCORPION_FIRE_STAND_UP_FRONT";
+                case "NUI_SOLDIER_BENDERS": return actor.originalHitBackV45?"SOLDIER_BENDERS_STAND_UP_BACK":"SOLDIER_BENDERS_STAND_UP_FRONT";
+                case "NUI_SOLDIER_CROSSBOW": return actor.originalHitBackV45?"SOLDIER_CROSSBOW_STAND_UP_BACK":"SOLDIER_CROSSBOW_STAND_UP_FRONT";
+                case "NUI_SOLDIER_FAT": return actor.originalHitBackV45?"ELDER_SOLDIER_BIG_STAND_UP_BACK":"ELDER_SOLDIER_BIG_STAND_UP_FRONT";
+                case "NUI_SOLDIER_THIN": return actor.originalHitBackV45?"SOLDIER_THIN_STAND_UP_BACK":"SOLDIER_THIN_STAND_UP_FRONT";
+                case "NUI_THIEF_THIN_ZERO": return actor.originalHitBackV45?"THIEF_THIN_ZERO_STAND_UP_BACK":"THIEF_THIN_ZERO_STAND_UP_FRONT";
+                case "NUI_THIEF_FAT": return actor.originalHitBackV45?"THIEF_FAT_STAND_UP_BACK":"THIEF_FAT_STAND_UP_FRONT";
+                case "NUI_THIEF_FAT_BOSS": return actor.originalHitBackV45?"THIEF_FAT_BOSS_STAND_UP_BACK":"THIEF_FAT_BOSS_STAND_UP_FRONT";
+                case "NUI_THIEF_THIN": return actor.originalHitBackV45?"THIEF_THIN_STAND_UP_BACK":"THIEF_THIN_STAND_UP_FRONT";
+                case "NUI_THIEF_THIN_TOTO": return actor.originalHitBackV45?"THIEF_THIN_TOTO_STAND_UP_BACK":"THIEF_THIN_TOTO_STAND_UP_FRONT";
+                case "NUI_TREE_KNIGHT": return actor.originalHitBackV45?"TREE_KNIGHT_STAND_UP_BACK":"TREE_KNIGHT_STAND_UP_FRONT";
+                case "NUI_WALLY_8TH": return actor.originalHitBackV45?"WALLY_8TH_STAND_UP_BACK":"WALLY_8TH_STAND_UP_FRONT";
+                case "NUI_WALLY_8TH_MK2": return actor.originalHitBackV45?"WALLY_8TH_MK2_STAND_UP_BACK":"WALLY_8TH_MK2_STAND_UP_FRONT";
+                case "NUI_WALLY_9TH_TYPE2": return actor.originalHitBackV45?"WALLY_9TH_TYPE2_STAND_UP_BACK":"WALLY_9TH_TYPE2_STAND_UP_FRONT";
+                case "NUI_PPORU_GIANT_WHITE": return actor.originalHitBackV45?"PPORU_GIANT_WHITE_STAND_UP_BACK":"PPORU_GIANT_WHITE_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_NORMAL": return actor.originalHitBackV45?"WILLIAM_PPORU_STAND_UP_BACK":"WILLIAM_PPORU_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_CUTE": return actor.originalHitBackV45?"PPORU_WILLIAM_CUTE_STAND_UP_BACK":"PPORU_WILLIAM_CUTE_STAND_UP_FRONT";
+                case "NUI_PPORU_WILLIAM_CUTE_THIEF": return actor.originalHitBackV45?"PPORU_WILLIAM_CUTE_THIEF_STAND_UP_BACK":"PPORU_WILLIAM_CUTE_THIEF_STAND_UP_FRONT";
+                default:return null;
+            }
+        }
+    }
+}

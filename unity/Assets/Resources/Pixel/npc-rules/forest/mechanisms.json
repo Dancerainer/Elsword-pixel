@@ -1,0 +1,464 @@
+{
+  "schema": "forest-mechanisms-v09",
+  "runtimeAdmitted": false,
+  "sourceMechanismsComplete": false,
+  "sourceRulesSha256": "e3d8c379969e33d1dfb9df9a63dae75390f242de2d6a44e753cb9cb7d826af97",
+  "nativeEvidenceSha256": "cc02cafb950ab583d958c2dbb58851f6851a40f372dc0d14f7f684e72053d467",
+  "sources": [
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "lua": {
+        "name": "FOREST_DARK_MAGICIAN.LUA",
+        "sha256": "5b067378dec40ec520cc71c9f0db83c05750852cad70373275113b49e34d54e8",
+        "archive": "D:\\elsword-na-2016\\data\\data037.kom",
+        "ordinal": 756,
+        "rawPath": "raw/data/data037.kom/FOREST_DARK_MAGICIAN.LUA",
+        "bytes": 12641,
+        "equivalentSources": [
+          {
+            "archive": "data/data037.kom",
+            "ordinal": 756
+          }
+        ],
+        "offset": 3744506,
+        "compressedSha256": "b44b29947e3d100d7c24e7ea63c00dadedad3804e9b9f5dcd73e9998ae778fe2",
+        "verifiedTargetSha256": "5b067378dec40ec520cc71c9f0db83c05750852cad70373275113b49e34d54e8"
+      },
+      "mechanicsSha256": "cf45eac05b01080e4e188806df3c9a659faea2e15059cf6cbb394ccba30df20e"
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "lua": {
+        "name": "CURSE_WISP.lua",
+        "sha256": "353221eea236f65620d83c7e766c5bbe46df018d2874b0de735102ebab6e55db",
+        "archive": "D:\\elsword-na-2016\\data\\data037.kom",
+        "ordinal": 416,
+        "rawPath": "raw/data/data037.kom/CURSE_WISP.lua",
+        "bytes": 10992,
+        "equivalentSources": [
+          {
+            "archive": "data/data037.kom",
+            "ordinal": 416
+          }
+        ],
+        "offset": 2393458,
+        "compressedSha256": "0ec5740150fe1aab3a9a0411938e12fe0ee65fc4d40bf3f63b5aabf6ed39655f",
+        "verifiedTargetSha256": "353221eea236f65620d83c7e766c5bbe46df018d2874b0de735102ebab6e55db"
+      },
+      "mechanicsSha256": "d329bcec1123e17dff4cd72ce83068f7ad850e8891f4d1826c3bab305c5659b6"
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "lua": {
+        "name": "ANGER_FOREST_KNIGHT.LUA",
+        "sha256": "26a69a1db441aa78288876faff06eda8f2ea0b877fa31ebdcdcf25679586a1c7",
+        "archive": "D:\\elsword-na-2016\\data\\data037.kom",
+        "ordinal": 17,
+        "rawPath": "raw/data/data037.kom/ANGER_FOREST_KNIGHT.LUA",
+        "bytes": 12348,
+        "equivalentSources": [
+          {
+            "archive": "data/data037.kom",
+            "ordinal": 17
+          }
+        ],
+        "offset": 427620,
+        "compressedSha256": "582f62e719dbe71d3d041997f3262ae594c1764637ddeee1328490a1d7f5c681",
+        "verifiedTargetSha256": "26a69a1db441aa78288876faff06eda8f2ea0b877fa31ebdcdcf25679586a1c7"
+      },
+      "mechanicsSha256": "0f55d5e8193cfa0c7879c97381d8d3c3a0f60ba19dbd3ee8ff590c1971dcb0be"
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "lua": {
+        "name": "ANGER_FOREST_FAIRY.LUA",
+        "sha256": "8a62e95a34e97db1062d1f73631efa755ad8cda58d42f3f60f118102e5e32343",
+        "archive": "D:\\elsword-na-2016\\data\\data037.kom",
+        "ordinal": 16,
+        "rawPath": "raw/data/data037.kom/ANGER_FOREST_FAIRY.LUA",
+        "bytes": 12216,
+        "equivalentSources": [
+          {
+            "archive": "data/data037.kom",
+            "ordinal": 16
+          }
+        ],
+        "offset": 424243,
+        "compressedSha256": "7e3d799c247bb97f3a5cf3a5740a5005d8d6f4aad6706db87d7e6fd66e98ba74",
+        "verifiedTargetSha256": "8a62e95a34e97db1062d1f73631efa755ad8cda58d42f3f60f118102e5e32343"
+      },
+      "mechanicsSha256": "1a6d05b6818371d1ff70d99a0ff44688dcb12d0d00193ab059b4411e8dda13dd"
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "lua": {
+        "name": "ANGER_FOREST_ENT.lua",
+        "sha256": "0d184cdad280acb342079b4c51c5f41cf8219a5d6eafe5fe61e4b909ea147918",
+        "archive": "D:\\elsword-na-2016\\data\\data037.kom",
+        "ordinal": 14,
+        "rawPath": "raw/data/data037.kom/ANGER_FOREST_ENT.lua",
+        "bytes": 13962,
+        "equivalentSources": [
+          {
+            "archive": "data/data037.kom",
+            "ordinal": 14
+          }
+        ],
+        "offset": 415372,
+        "compressedSha256": "e9e97d912ed5abe6dfaa235f085bff8f5e60d53e4b6a8991814e27ee6842398e",
+        "verifiedTargetSha256": "0d184cdad280acb342079b4c51c5f41cf8219a5d6eafe5fe61e4b909ea147918"
+      },
+      "mechanicsSha256": "f99309327d4f79a1d85585a685af2b7333029a738cc800bc9f65e7c36c7eb6b6"
+    }
+  ],
+  "states": [
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "state": "FOREST_DARK_MAGICIAN_WAIT",
+      "sourceIndex": 2,
+      "sourceAnimation": "Wait",
+      "duration": 1.0,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "state": "FOREST_DARK_MAGICIAN_WALK",
+      "sourceIndex": 3,
+      "sourceAnimation": "Walk",
+      "duration": 1.1333333333333333,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "state": "FOREST_DARK_MAGICIAN_ATTACK_A_READY",
+      "sourceIndex": 9,
+      "sourceAnimation": "AttackA_Ready",
+      "duration": 2.6933333333333334,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_FOREST_DARK_MAGICIAN",
+      "state": "FOREST_DARK_MAGICIAN_ATTACK_A",
+      "sourceIndex": 10,
+      "sourceAnimation": "AttackA_Fire",
+      "duration": 1.5666666666666667,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "state": "CURSE_WISP_WAIT",
+      "sourceIndex": 2,
+      "sourceAnimation": "Wait",
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "state": "CURSE_WISP_WALK",
+      "sourceIndex": 3,
+      "sourceAnimation": "Walk",
+      "duration": 1.2666666666666666,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "state": "CURSE_WISP_ATTACK_A_READY",
+      "sourceIndex": 9,
+      "sourceAnimation": "Attack_A_Ready",
+      "duration": 2.6133333333333333,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_CURSE_WISP",
+      "state": "CURSE_WISP_ATTACK_A",
+      "sourceIndex": 10,
+      "sourceAnimation": "Attack_A",
+      "duration": 2.5,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "state": "ANGER_FOREST_KNIGHT_WAIT",
+      "sourceIndex": 2,
+      "sourceAnimation": "Wait",
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "state": "ANGER_FOREST_KNIGHT_WALK",
+      "sourceIndex": 3,
+      "sourceAnimation": "Walk",
+      "duration": 1.2666666666666666,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "state": "ANGER_FOREST_KNIGHT_ATTACK_A_READY",
+      "sourceIndex": 9,
+      "sourceAnimation": "Attack_A_Ready",
+      "duration": 2.3466666666666667,
+      "loop": false,
+      "cooldown": 5,
+      "initialElapsed": 0,
+      "cooldownExplicit": true,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_KNIGHT",
+      "state": "ANGER_FOREST_KNIGHT_ATTACK_A",
+      "sourceIndex": 10,
+      "sourceAnimation": "Attack_A",
+      "duration": 1.7333333333333334,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "state": "ANGER_FOREST_FAIRY_WAIT",
+      "sourceIndex": 2,
+      "sourceAnimation": "Wait",
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "state": "ANGER_FOREST_FAIRY_WALK",
+      "sourceIndex": 3,
+      "sourceAnimation": "Walk",
+      "duration": 0.9333333333333333,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "state": "ANGER_FOREST_FAIRY_ATTACK_READY",
+      "sourceIndex": 9,
+      "sourceAnimation": "Attack_A_Ready",
+      "duration": 2.533333333333333,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_FAIRY",
+      "state": "ANGER_FOREST_FAIRY_ATTACK_A",
+      "sourceIndex": 10,
+      "sourceAnimation": "Attack_A",
+      "duration": 1.1666666666666667,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_WAIT",
+      "sourceIndex": 2,
+      "sourceAnimation": "Wait",
+      "duration": 2.6666666666666665,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_WALK",
+      "sourceIndex": 3,
+      "sourceAnimation": "Walk",
+      "duration": 2.0,
+      "loop": true,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_A_READY",
+      "sourceIndex": 4,
+      "sourceAnimation": "Attack_A_Ready",
+      "duration": 3.1666666666666665,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_A",
+      "sourceIndex": 5,
+      "sourceAnimation": "Attack_A_Fire",
+      "duration": 3.1666666666666665,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_B_READY",
+      "sourceIndex": 6,
+      "sourceAnimation": "Attack_B_Ready",
+      "duration": 2.8,
+      "loop": false,
+      "cooldown": 8,
+      "initialElapsed": 0,
+      "cooldownExplicit": true,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_B",
+      "sourceIndex": 7,
+      "sourceAnimation": "Attack_B_Fire",
+      "duration": 1.7333333333333334,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_C_READY",
+      "sourceIndex": 8,
+      "sourceAnimation": "Attack_C_Ready",
+      "duration": 2.6,
+      "loop": false,
+      "cooldown": 16,
+      "initialElapsed": 0,
+      "cooldownExplicit": true,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_ATTACK_C",
+      "sourceIndex": 9,
+      "sourceAnimation": "Attack_C_Fire",
+      "duration": 1.5,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+      "sourceIndex": 10,
+      "sourceAnimation": "Special_Attack_Ready",
+      "duration": 4.0,
+      "loop": false,
+      "cooldown": 30,
+      "initialElapsed": 0,
+      "cooldownExplicit": true,
+      "initialElapsedExplicit": false
+    },
+    {
+      "npc": "NUI_ANGER_FOREST_ENT",
+      "state": "ANGER_FOREST_ENT_SPECIAL_ATTACK",
+      "sourceIndex": 11,
+      "sourceAnimation": "Special_Attack_Fire",
+      "duration": 3.2333333333333334,
+      "loop": false,
+      "cooldown": 0,
+      "initialElapsed": 0,
+      "cooldownExplicit": false,
+      "initialElapsedExplicit": false
+    }
+  ],
+  "retaliation": {
+    "npc": "NUI_ANGER_FOREST_ENT",
+    "sourceState": "ANGER_FOREST_ENT_DAMAGE",
+    "sourceCallback": "ANGER_FOREST_ENT_DAMAGE_STATE_START_FUNC",
+    "instructionsLittleEndianBytesSha256": "2113026f3f0c3a7d3f478726f1d7719dcf4398d2e2c4aa70a6ce8e2c139e023b",
+    "timerIndex": 1,
+    "timerInitial": 0,
+    "timerEnabled": true,
+    "minimumTimerExclusive": 1,
+    "maximumSourceDistance": 500,
+    "cRollExclusive": 10,
+    "specialRollExclusive": 15,
+    "cHpMaximum": 0.7,
+    "specialHpMaximum": 0.4,
+    "cState": "ANGER_FOREST_ENT_ATTACK_C_READY",
+    "specialState": "ANGER_FOREST_ENT_SPECIAL_ATTACK_READY",
+    "stateChangeArgument": true
+  },
+  "semantics": {
+    "cooldownInitial": "Explicit INITIALIZE_STATE_ELAPSED_TIME; missing0 proved by original getter fallback and instance copy.",
+    "cooldownAdvance": "Definition cooldown>0: elapsed+=outer delta after state request processing, including old-positive NPC STOP; no clamp.",
+    "request": "Ordered elapsed>=cooldown, including equality; accepted request clears target elapsed and queues state. TRUE is unused by final NPC request method.",
+    "timer1": "Constructor0/previous0/enabled1. Advance only on ordinary non-stopped actor frame using actor delta. Independent of state animation and state cooldown.",
+    "callbackOrder": "Host; HP/maxHP; nearest-player distance; exactly one integer roll1..100; distance<=500; timer1>1; roll/HP branch; reset timer1 unconditionally after those distance/time gates."
+  },
+  "adapters": [
+    "Single-player host true; Euclidean XY distance divided by existing .28 source scale; seeded demo integer RNG, not original math.random sequence.",
+    "Only actual ground Hurt entry invokes DAMAGE; airborne source reaction aliases remain pending.",
+    "A queued reaction commit occurs after damage setters and before the next eligible NPC action update. Existing generic damage velocity/stun is cleared at that boundary; original full protected-state identity is not emulated.",
+    "Existing fractional demo hitpause integration remains unchanged; timer1 uses the original old-stop gate and cooldown still receives full outer delta.",
+    "Ordinary AI requests respect cooldown; direct EnterNpcState is deliberately retained as a forced diagnostic fixture API."
+  ],
+  "limits": [
+    "Original whole-client invocation order and live update deltas were not measured. No claim that all NPC AI, voices, camera, airborne dispatch or remaining mechanics are complete.",
+    "No production Resources staging or admission changed. Art geometry/clip durations/RGBA/anchors remain bound to unchanged forest.json."
+  ]
+}

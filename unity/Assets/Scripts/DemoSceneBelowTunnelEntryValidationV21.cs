@@ -1,0 +1,15 @@
+#if UNITY_EDITOR
+using System;
+using System.IO;
+using System.Collections.Generic;
+using UnityEngine;
+namespace ElswordPixel {
+ public sealed partial class DemoScene {
+  int belowEntryObservedRoomV21=-1;float belowEntryRoomBeganV21;readonly HashSet<string> belowEntryObservedStatesV21=new HashSet<string>();
+  [Serializable] sealed class BelowEntryObservedV21 {public string schema="below-tunnel-natural-candidate-counters-v21",bundleSha256,scope="Observed ordinary Input and60Hz Step. Legacy drawFrames counts capture callbacks only; it is not actor or FX render evidence. sourceFxEvents is the current model presentation feed length, not rendered effects. BelowVisual fields read actual typed renderer public counters; no claim of native effect parity/public readiness.";public bool actualPlayMode,inputOnly=true,runtimeAdmitted=false,naturalRouteVerified=false,BelowVisualConfigured;public int roomsReached,drawFrames,actorObservationCaptures,visibilityEvents,sourceFxEvents,BelowVisualDrawFrames,BelowVisualMainMeshDrawFrames,BelowVisualCreatedSequences,BelowVisualHeldEvents,BelowVisualPool,BelowVisualKinds,BelowVisualVisibleSprites,BelowVisualLiveSequences;public int BelowCameraClampFrames;public string[] observedStates,BelowVisualDrawnKinds;}
+  int belowEntryDrawFramesV21;
+  void CaptureBelowTunnelEntryV21(){if(!belowTunnelEntrySessionV21)return;belowEntryDrawFramesV21++;if(belowEntryObservedRoomV21!=game.room){belowEntryObservedRoomV21=game.room;belowEntryRoomBeganV21=game.elapsed;}foreach(var age in new[]{3,10})if(game.elapsed-belowEntryRoomBeganV21>=age&&forestAutoEffectCaptures.Add("below-room-"+game.room+"-"+age)){string name="below-room-"+(game.room+1)+"-stable-"+age+"s";ForestAutoCapture(name);SaveBelowCameraViewportSnapshotV21(name);}foreach(var e in game.enemies)if(e.active&&!string.IsNullOrEmpty(e.npcState))belowEntryObservedStatesV21.Add(e.sourceNPC+"/"+e.npcState);}
+  void SaveBelowTunnelEntryCountersV21(){if(!belowTunnelEntrySessionV21)return;var r=new BelowEntryObservedV21{bundleSha256=forestPreviewBundleHash,actualPlayMode=Application.isPlaying,roomsReached=forestAutoVisits.Count,drawFrames=belowEntryDrawFramesV21,actorObservationCaptures=belowEntryDrawFramesV21,sourceFxEvents=game.npcPresentationEvents.Count,visibilityEvents=game.belowVisibilityEventsV21.Count,observedStates=new List<string>(belowEntryObservedStatesV21).ToArray(),BelowVisualConfigured=BelowVisualConfiguredV21,BelowVisualDrawFrames=BelowVisualDrawFramesV21,BelowVisualMainMeshDrawFrames=BelowVisualMainMeshDrawFramesV21,BelowVisualCreatedSequences=BelowVisualCreatedSequencesV21,BelowVisualHeldEvents=BelowVisualHeldEventsV21,BelowVisualPool=BelowVisualPoolCountV21,BelowVisualKinds=BelowVisualKindsDrawnV21,BelowVisualDrawnKinds=BelowVisualDrawnKindsV21,BelowVisualVisibleSprites=BelowVisualVisibleSpritesV21,BelowVisualLiveSequences=BelowVisualLiveSequencesV21,BelowCameraClampFrames=belowCameraClampFramesV21};File.WriteAllText(Path.Combine(forestAutoOutput,"below-presentation-counters.json"),JsonUtility.ToJson(r,true));}
+ }
+}
+#endif

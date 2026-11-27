@@ -1,0 +1,3188 @@
+{
+  "schema": 1,
+  "scope": "Local user-supplied 2016 NA non-voice SFX only. Exact archive bytes in original Ogg Vorbis or PCM WAVE containers, no music. Material families, playback mixing, event rate limits and explicitly marked fallback timing are demo presentation choices. No original client playback measurement.",
+  "soundSetPolicy": "Select highest-weight declared SOUND_SET, then NORMAL or the awakened clip HYPER branch. Duplicate same-file/same-time rows collapse; voice rows are excluded. Original random sound-set sampling is not reproduced.",
+  "assets": [
+    {
+      "id": "slash",
+      "file": "slash.ogg",
+      "resource": "Pixel/audio/slash",
+      "sourceName": "Slash.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16720824,
+      "sha256": "04806cf41e62cee0d85b25c2795115f415b8a2524ea0d66635b4139cf03a1edb",
+      "bytes": 8175,
+      "duration": 0.50866,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "energy",
+      "file": "energy.ogg",
+      "resource": "Pixel/audio/energy",
+      "sourceName": "Energy.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 4157312,
+      "sha256": "056e90fa164e8dc35661dcaa17d6c80281f4ebc489bbefaae2e6952bf79102ec",
+      "bytes": 9815,
+      "duration": 0.98857,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "slash2",
+      "file": "slash2.ogg",
+      "resource": "Pixel/audio/slash2",
+      "sourceName": "Slash2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16728436,
+      "sha256": "e06985a5728b0284879e005a671224b089f473394308f139d56011bd99fb7596",
+      "bytes": 8484,
+      "duration": 0.59138,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "groundhit",
+      "file": "groundhit.ogg",
+      "resource": "Pixel/audio/groundhit",
+      "sourceName": "GroundHit.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 9093912,
+      "sha256": "fee9ce2ee16fd78bd19c22627955164195401b78ba930465d2b8598ede365573",
+      "bytes": 10057,
+      "duration": 0.72011,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "down",
+      "file": "down.ogg",
+      "resource": "Pixel/audio/down",
+      "sourceName": "Down.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 1172999,
+      "sha256": "80c66dd309d83f310ba3e18e3de585dd7969cdc55e54256b163278858ba9582d",
+      "bytes": 6650,
+      "duration": 0.4644,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "powerslash",
+      "file": "powerslash.ogg",
+      "resource": "Pixel/audio/powerslash",
+      "sourceName": "PowerSlash.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16434979,
+      "sha256": "0805750ad295ca771f4737fb156fbb188743e0222ad3acc00664292362997744",
+      "bytes": 8610,
+      "duration": 0.59138,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_si_a_rolling_smash2",
+      "file": "elsword_si_a_rolling_smash2.ogg",
+      "resource": "Pixel/audio/elsword_si_a_rolling_smash2",
+      "sourceName": "Elsword_SI_A_Rolling_Smash2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27873130,
+      "sha256": "2d9983d2d7310f7e859c7f2144d6fa58d80456ae2863fed8b9a1718e47d9989e",
+      "bytes": 13674,
+      "duration": 1.18401,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_si_a_rolling_smash1",
+      "file": "elsword_si_a_rolling_smash1.ogg",
+      "resource": "Pixel/audio/elsword_si_a_rolling_smash1",
+      "sourceName": "Elsword_SI_A_Rolling_Smash1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27839851,
+      "sha256": "b0f54faa6121b078443f6fc0f6172f892a64ee59bd76bcff3199778aef2842f0",
+      "bytes": 34418,
+      "duration": 1.26794,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "step",
+      "file": "step.ogg",
+      "resource": "Pixel/audio/step",
+      "sourceName": "Step.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16939053,
+      "sha256": "03c9e62b4df83458ccda786be00bac995c71013a540fbffae2f577e7377bd836",
+      "bytes": 6425,
+      "duration": 0.28989,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_armor_brake",
+      "file": "elsword_armor_brake.ogg",
+      "resource": "Pixel/audio/elsword_armor_brake",
+      "sourceName": "Elsword_Armor_Brake.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26378215,
+      "sha256": "3483d62628485ce84e76a49bc7a731a30c462b60833e0fc38d3102645fb03a22",
+      "bytes": 18650,
+      "duration": 1.83546,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_si_sa_sonic_blade1",
+      "file": "elsword_si_sa_sonic_blade1.ogg",
+      "resource": "Pixel/audio/elsword_si_sa_sonic_blade1",
+      "sourceName": "Elsword_SI_SA_Sonic_Blade1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27947145,
+      "sha256": "a2ae7a69b5f0ce91722b8bc97e1709561e555da083761c716593b0ddef911215",
+      "bytes": 7253,
+      "duration": 0.44,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_si_sa_sonic_blade2",
+      "file": "elsword_si_sa_sonic_blade2.ogg",
+      "resource": "Pixel/audio/elsword_si_sa_sonic_blade2",
+      "sourceName": "Elsword_SI_SA_Sonic_Blade2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27953875,
+      "sha256": "5285caefc3c4f87a7af290d42b5d2ceda2e5d1ff3148de070f849f9161d53670",
+      "bytes": 16045,
+      "duration": 1.45068,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "landing_meat02",
+      "file": "landing_meat02.ogg",
+      "resource": "Pixel/audio/landing_meat02",
+      "sourceName": "Landing_Meat02.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 14988644,
+      "sha256": "4983dd8c341e58528a35fd366831fc62db763db091ca0a90e9fd926f01dbc4ef",
+      "bytes": 5368,
+      "duration": 0.21079,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_windmillspinend",
+      "file": "elsword_windmillspinend.ogg",
+      "resource": "Pixel/audio/elsword_windmillspinend",
+      "sourceName": "Elsword_WindmillSpinEnd.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 28482330,
+      "sha256": "d932caa9341f8274d0ec88abab8a70f45a06244b62dc7efd3b5cbf091f5284c7",
+      "bytes": 10602,
+      "duration": 0.86494,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_kick",
+      "file": "elsword_kick.ogg",
+      "resource": "Pixel/audio/elsword_kick",
+      "sourceName": "Elsword_Kick.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27278146,
+      "sha256": "72c3c900a6316add5b28eccbc6dca14b85093c63c8649c21c383d22917cbb3d4",
+      "bytes": 14241,
+      "duration": 1.43524,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "revengeready",
+      "file": "revengeready.ogg",
+      "resource": "Pixel/audio/revengeready",
+      "sourceName": "RevengeReady.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16487037,
+      "sha256": "e64900386e87b945775f9a8a0e4b60600381560104baa1ef4a76cf1cd689ddbf",
+      "bytes": 12325,
+      "duration": 0.97961,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_doubleslash1",
+      "file": "elsword_doubleslash1.ogg",
+      "resource": "Pixel/audio/elsword_doubleslash1",
+      "sourceName": "Elsword_DoubleSlash1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26888147,
+      "sha256": "3ab20a2fb1aef8879a4a236199f685ea7b1dffcddcd76b3bc16086c661660182",
+      "bytes": 9971,
+      "duration": 0.77642,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_doubleslash2",
+      "file": "elsword_doubleslash2.ogg",
+      "resource": "Pixel/audio/elsword_doubleslash2",
+      "sourceName": "Elsword_DoubleSlash2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26897600,
+      "sha256": "de76138e5ed6c3b0190bc779ec8bcfae541c5feae6370baa4820441c8df0b527",
+      "bytes": 13407,
+      "duration": 1.09438,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_doubleslash3",
+      "file": "elsword_doubleslash3.ogg",
+      "resource": "Pixel/audio/elsword_doubleslash3",
+      "sourceName": "Elsword_DoubleSlash3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26910471,
+      "sha256": "bf88fb231f368426e8926595b4666fc7f0f0d4d3fbef9be9aee37d5704e1a1d0",
+      "bytes": 17182,
+      "duration": 1.50989,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_spiralblast1",
+      "file": "elsword_spiralblast1.ogg",
+      "resource": "Pixel/audio/elsword_spiralblast1",
+      "sourceName": "Elsword_SpiralBlast1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 28078802,
+      "sha256": "3088f602361af27082106aabe677909636a3842814d5a76f176436884dbc4e1d",
+      "bytes": 9292,
+      "duration": 0.65451,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_spiralblast2",
+      "file": "elsword_spiralblast2.ogg",
+      "resource": "Pixel/audio/elsword_spiralblast2",
+      "sourceName": "Elsword_SpiralBlast2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 28087571,
+      "sha256": "a5a20348556e186c2f99ecc23da5eb8495cd9252aad345f4bd77fcd266ee5934",
+      "bytes": 10324,
+      "duration": 1.10177,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_spiralblast3",
+      "file": "elsword_spiralblast3.ogg",
+      "resource": "Pixel/audio/elsword_spiralblast3",
+      "sourceName": "Elsword_SpiralBlast3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 28097290,
+      "sha256": "bc24a0ff552e1c480020701284c46e87147bbd9cc3e4ee9f10e1edf153e4a0f0",
+      "bytes": 16450,
+      "duration": 1.51458,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "break",
+      "file": "break.ogg",
+      "resource": "Pixel/audio/break",
+      "sourceName": "Break.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 249435,
+      "sha256": "a3960f5a7ef29c4f99e8430a3a03f719876f739b604da17b6dcb44de5d867dc7",
+      "bytes": 10552,
+      "duration": 0.81415,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "change",
+      "file": "change.ogg",
+      "resource": "Pixel/audio/change",
+      "sourceName": "Change.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 444929,
+      "sha256": "3edfc5d542966e23f3eb7b8ba5ca9b81551f31ac64967045105b5d5973ba2748",
+      "bytes": 16256,
+      "duration": 1.5122,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_bodyroll01",
+      "file": "elsword_bodyroll01.ogg",
+      "resource": "Pixel/audio/elsword_bodyroll01",
+      "sourceName": "Elsword_BodyRoll01.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26646345,
+      "sha256": "4aea587b67124781d2da2006d29f59bbe3ddc5f2f9115fc8299e4fd37c426073",
+      "bytes": 14540,
+      "duration": 1.26866,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_si_a_rolling_smash3",
+      "file": "elsword_si_a_rolling_smash3.ogg",
+      "resource": "Pixel/audio/elsword_si_a_rolling_smash3",
+      "sourceName": "Elsword_SI_A_Rolling_Smash3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27886290,
+      "sha256": "62aef50a8ca1e84b6fe5220db6e2fecc1f909dd0c068bfde1bb414cc66b722f9",
+      "bytes": 13485,
+      "duration": 1.18401,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "slash4",
+      "file": "slash4.ogg",
+      "resource": "Pixel/audio/slash4",
+      "sourceName": "Slash4.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16744396,
+      "sha256": "b9a1df9ac61011a0dec258553f6f502f6995a9f2d1d3250c8d1953b3d3123dcf",
+      "bytes": 8614,
+      "duration": 0.5834,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "fire",
+      "file": "fire.ogg",
+      "resource": "Pixel/audio/fire",
+      "sourceName": "fire.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 18670279,
+      "sha256": "f69fe5111a63e291a715c239d8cfa07342da9419469ab56b6ea0eee5d1a2ba6a",
+      "bytes": 16534,
+      "duration": 1.48317,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_assaultslash2",
+      "file": "elsword_assaultslash2.ogg",
+      "resource": "Pixel/audio/elsword_assaultslash2",
+      "sourceName": "Elsword_AssaultSlash2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26407785,
+      "sha256": "98b3a8a220acf8f0456834c0b91d50ccb4b87037fbc5515c6adf2765c3154913",
+      "bytes": 17894,
+      "duration": 1.81696,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_flamegeyser",
+      "file": "elsword_flamegeyser.ogg",
+      "resource": "Pixel/audio/elsword_flamegeyser",
+      "sourceName": "Elsword_FlameGeyser.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26999317,
+      "sha256": "a97b8b81bde5fab0fe76dfbe453afbb36b805622265dd1e24529863720907dcb",
+      "bytes": 12814,
+      "duration": 1.3961,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_mortalblow01",
+      "file": "elsword_mortalblow01.ogg",
+      "resource": "Pixel/audio/elsword_mortalblow01",
+      "sourceName": "Elsword_MortalBlow01.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27441705,
+      "sha256": "546313512676a465d5ae4495addb154d771f0c5b9f0636572abb66bbbfc86e2f",
+      "bytes": 17027,
+      "duration": 1.18746,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_mortalblow02",
+      "file": "elsword_mortalblow02.ogg",
+      "resource": "Pixel/audio/elsword_mortalblow02",
+      "sourceName": "Elsword_MortalBlow02.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27457269,
+      "sha256": "d32614155cc54b2567c7dcaa490ade328c970841a98e7b5083a006e6a71afe4a",
+      "bytes": 26069,
+      "duration": 1.78268,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "slash3",
+      "file": "slash3.ogg",
+      "resource": "Pixel/audio/slash3",
+      "sourceName": "Slash3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16736384,
+      "sha256": "4e8280136d2b095d3e5d3c63d7539e66387e6e3e4353be114ea5aa31814ed2e3",
+      "bytes": 8539,
+      "duration": 0.60662,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_armageddon_blade1",
+      "file": "elsword_armageddon_blade1.ogg",
+      "resource": "Pixel/audio/elsword_armageddon_blade1",
+      "sourceName": "Elsword_Armageddon_Blade1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26325963,
+      "sha256": "c059983f5ff33a4da8867b68a804a94d57392f4dc907b8bfcadec00ab7681ede",
+      "bytes": 9292,
+      "duration": 0.65451,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_armageddon_blade2",
+      "file": "elsword_armageddon_blade2.ogg",
+      "resource": "Pixel/audio/elsword_armageddon_blade2",
+      "sourceName": "Elsword_Armageddon_Blade2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26334731,
+      "sha256": "2bd8d49b55755fcc3ad352614f39cf0874b7e70e2922bce7012e0d9c6c519711",
+      "bytes": 30105,
+      "duration": 3.30959,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_armageddon_blade3",
+      "file": "elsword_armageddon_blade3.ogg",
+      "resource": "Pixel/audio/elsword_armageddon_blade3",
+      "sourceName": "Elsword_Armageddon_Blade3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26364210,
+      "sha256": "840dc2083a23da6ab0c19691a650eaede422e5471e59089d11abf9b99fd7fcb7",
+      "bytes": 14524,
+      "duration": 1.3722,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_bladeout",
+      "file": "elsword_bladeout.ogg",
+      "resource": "Pixel/audio/elsword_bladeout",
+      "sourceName": "Elsword_BladeOut.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26465136,
+      "sha256": "e06020393ebd011e5ac25c40bd907b44173a827220d1c46f686a6104b2a825ce",
+      "bytes": 12473,
+      "duration": 1.04197,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_sandstorm",
+      "file": "elsword_sandstorm.ogg",
+      "resource": "Pixel/audio/elsword_sandstorm",
+      "sourceName": "Elsword_SandStorm.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27990676,
+      "sha256": "109a1f8907fd7d01f72e65237e5ef6fc25fded130e8704c4848566205ba19248",
+      "bytes": 21810,
+      "duration": 2.3373,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_giganticslash_ready",
+      "file": "elsword_giganticslash_ready.ogg",
+      "resource": "Pixel/audio/elsword_giganticslash_ready",
+      "sourceName": "Elsword_GiganticSlash_Ready.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27210194,
+      "sha256": "dd57072f3415ad8f3c8016971ce57ae9459bab1ef1b1b585df22ad3271305517",
+      "bytes": 17018,
+      "duration": 1.61762,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_giganticslash1",
+      "file": "elsword_giganticslash1.ogg",
+      "resource": "Pixel/audio/elsword_giganticslash1",
+      "sourceName": "Elsword_GiganticSlash1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27011536,
+      "sha256": "c57d84050591aea73c9aa9fa416eab960f91daad37cc3abd65552f2e249d086c",
+      "bytes": 37079,
+      "duration": 2.87215,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_giganticslash2",
+      "file": "elsword_giganticslash2.ogg",
+      "resource": "Pixel/audio/elsword_giganticslash2",
+      "sourceName": "Elsword_GiganticSlash2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27047158,
+      "sha256": "74c4d9114f29d1987f7796ab77f4a0e1ef3d22373b76e844aa9f9eb0d07a32fa",
+      "bytes": 40892,
+      "duration": 3.1634,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_giganticslash3",
+      "file": "elsword_giganticslash3.ogg",
+      "resource": "Pixel/audio/elsword_giganticslash3",
+      "sourceName": "Elsword_GiganticSlash3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27086550,
+      "sha256": "32ec6aa31e373d77fc8334bb6156a96b98f66a43e8f7c3a57f85b51a074dccc4",
+      "bytes": 31297,
+      "duration": 2.2251,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_giganticslash5",
+      "file": "elsword_giganticslash5.ogg",
+      "resource": "Pixel/audio/elsword_giganticslash5",
+      "sourceName": "Elsword_GiganticSlash5.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27186123,
+      "sha256": "7acfcb56ec46ed76b7909c57abf037f92341eca795171674d0c3d81b73e0c6b4",
+      "bytes": 25566,
+      "duration": 2.23576,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_giganticslash4",
+      "file": "elsword_giganticslash4.ogg",
+      "resource": "Pixel/audio/elsword_giganticslash4",
+      "sourceName": "Elsword_GiganticSlash4.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27116380,
+      "sha256": "3156440c952debae3d06c8eaf0a09e5bbd21ae9bea699da59201120c23ec3ee3",
+      "bytes": 71296,
+      "duration": 5.12224,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_parasite_slash1",
+      "file": "elsword_parasite_slash1.ogg",
+      "resource": "Pixel/audio/elsword_parasite_slash1",
+      "sourceName": "Elsword_Parasite_Slash1.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27517477,
+      "sha256": "53187eebdc9e8cf064638acdee25dbbad9919d3dba2a0e3184b9fb563b95c6ce",
+      "bytes": 10004,
+      "duration": 1.17356,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_parasite_slash2",
+      "file": "elsword_parasite_slash2.ogg",
+      "resource": "Pixel/audio/elsword_parasite_slash2",
+      "sourceName": "Elsword_Parasite_Slash2.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27526932,
+      "sha256": "9a4dbc6153357cdb6cc8e48b11389d47f26b890c935445dc3a9a6ab8efe354c8",
+      "bytes": 10577,
+      "duration": 1.40204,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_parasite_slash3",
+      "file": "elsword_parasite_slash3.ogg",
+      "resource": "Pixel/audio/elsword_parasite_slash3",
+      "sourceName": "Elsword_Parasite_Slash3.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 27536943,
+      "sha256": "5bfa8774866e53571c3c2ff6712af619717ff932dda1f54ad2fc7f66f21ef4a1",
+      "bytes": 18525,
+      "duration": 2.40204,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_endurance",
+      "file": "elsword_endurance.ogg",
+      "resource": "Pixel/audio/elsword_endurance",
+      "sourceName": "Elsword_Endurance.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 26927112,
+      "sha256": "03afb34922f468f8a77fb385376bda6a0844033ff9a2e98476c9d15af77aa0ed",
+      "bytes": 17560,
+      "duration": 1.7473,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "elsword_windmillspin",
+      "file": "elsword_windmillspin.ogg",
+      "resource": "Pixel/audio/elsword_windmillspin",
+      "sourceName": "Elsword_WindmillSpin.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data069.kom",
+      "offset": 28475129,
+      "sha256": "107e790613644ba68ba8986c472226b4454962d273c03fd0865015ca904cb31f",
+      "bytes": 7735,
+      "duration": 0.50794,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitslash",
+      "file": "hitslash.wav",
+      "resource": "Pixel/audio/hitslash",
+      "sourceName": "HitSlash.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 11677501,
+      "sha256": "4bef673cde4899b92d2f0401710d4cc1e84cc991330f80f140aa1eb56d36d207",
+      "bytes": 28242,
+      "duration": 0.6288,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hit2",
+      "file": "hit2.wav",
+      "resource": "Pixel/audio/hit2",
+      "sourceName": "Hit2.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 9438836,
+      "sha256": "0ed766c99c9989469d84dcf35d749cdc9c8ec3f8aead48205c003ab5bf80bfbd",
+      "bytes": 28528,
+      "duration": 0.31667,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitslash2",
+      "file": "hitslash2.wav",
+      "resource": "Pixel/audio/hitslash2",
+      "sourceName": "HitSlash2.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 11704043,
+      "sha256": "8d9aaabf46fa2382ef85e5b0d71a0b30cc873c50928ce16a29115084a06a4997",
+      "bytes": 28510,
+      "duration": 0.64549,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitwood",
+      "file": "hitwood.wav",
+      "resource": "Pixel/audio/hitwood",
+      "sourceName": "HitWood.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 12593895,
+      "sha256": "3b1b647aaa45f68c8fc2b46095ca19b3f0b6f13d92553f3292e01cec865b8cc8",
+      "bytes": 33044,
+      "duration": 0.37333,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "treasurechest_hit_wooden",
+      "file": "treasurechest_hit_wooden.ogg",
+      "resource": "Pixel/audio/treasurechest_hit_wooden",
+      "sourceName": "TreasureChest_Hit_Wooden.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 17595639,
+      "sha256": "a0f0983fee77b8c9ecf7d9401f64ba1ba46bdeead607469d751e0bac45b9b92a",
+      "bytes": 17274,
+      "duration": 1.02596,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitstone",
+      "file": "hitstone.wav",
+      "resource": "Pixel/audio/hitstone",
+      "sourceName": "HitStone.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 11744866,
+      "sha256": "bc459f4f24ee3887b8fbad7d8fb86a19b6b350334aa0aaef8e0ee43f99297584",
+      "bytes": 55924,
+      "duration": 0.63274,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitstone2",
+      "file": "hitstone2.wav",
+      "resource": "Pixel/audio/hitstone2",
+      "sourceName": "HitStone2.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 11795967,
+      "sha256": "b30aa2f2c769e8b6f538ada773c0bb26a15280c68aecc39ea040dea209882367",
+      "bytes": 71124,
+      "duration": 0.80508,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitmetal",
+      "file": "hitmetal.wav",
+      "resource": "Pixel/audio/hitmetal",
+      "sourceName": "HitMetal.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 10852959,
+      "sha256": "af6c0265d1dd13e908496a15a1a5c9e44a4d49faaaf0626c4c82aff7f8a1df17",
+      "bytes": 62688,
+      "duration": 0.69651,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hitmetal2",
+      "file": "hitmetal2.wav",
+      "resource": "Pixel/audio/hitmetal2",
+      "sourceName": "HitMetal2.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 10902342,
+      "sha256": "de6c0db597cad8e84e06e8e02f5ee491f5baf3ff79d401bd343573e773483ee5",
+      "bytes": 61564,
+      "duration": 0.69651,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hit_soul1",
+      "file": "hit_soul1.wav",
+      "resource": "Pixel/audio/hit_soul1",
+      "sourceName": "Hit_Soul1.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 13302225,
+      "sha256": "8a4f1f599fcf95340ea75cfecd7943c5092adf77a4166d867afe425ba408429d",
+      "bytes": 347144,
+      "duration": 1.95615,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "hit_soul2",
+      "file": "hit_soul2.wav",
+      "resource": "Pixel/audio/hit_soul2",
+      "sourceName": "Hit_Soul2.wav",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 13609216,
+      "sha256": "6510d5ee4febb3973aa88bbecd2941a66318baf2dafae113c7eaad7043f4bf7d",
+      "bytes": 510688,
+      "duration": 2.88283,
+      "encoding": "PCM WAVE",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "getitem_common",
+      "file": "getitem_common.ogg",
+      "resource": "Pixel/audio/getitem_common",
+      "sourceName": "GetItem_Common.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 8975317,
+      "sha256": "73a552efd7654d3dadfc4f890888576888b51a3ec47e33fd6e5dd9ab2e5785fd",
+      "bytes": 15859,
+      "duration": 1.48027,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "kickhit",
+      "file": "kickhit.ogg",
+      "resource": "Pixel/audio/kickhit",
+      "sourceName": "KickHit.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 14849720,
+      "sha256": "33a62dbb1a0ad420778e818948cf3b96e3797c09a920b090b6eea43ad3fc8f22",
+      "bytes": 6496,
+      "duration": 0.28227,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "metalimpact01",
+      "file": "metalimpact01.ogg",
+      "resource": "Pixel/audio/metalimpact01",
+      "sourceName": "MetalImpact01.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 16140021,
+      "sha256": "6bc20e4c866c4b0c69e418a90941d7c99c852dcfcfa846da9bdb77c8f398154f",
+      "bytes": 27411,
+      "duration": 1.86288,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "footattack",
+      "file": "footattack.ogg",
+      "resource": "Pixel/audio/footattack",
+      "sourceName": "FootAttack.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 4723885,
+      "sha256": "0789bdf4d1fb4a98010006acd17c0250c917ec0a59a577168a3f7e680a0807d5",
+      "bytes": 5795,
+      "duration": 0.27546,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "jumpland",
+      "file": "jumpland.ogg",
+      "resource": "Pixel/audio/jumpland",
+      "sourceName": "JumpLand.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 14830657,
+      "sha256": "cfefffe69cf11ed81efa6af418fdee51876a429ae1ea05165ee4e98e226741af",
+      "bytes": 5816,
+      "duration": 0.22893,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    },
+    {
+      "id": "swing_medium01",
+      "file": "swing_medium01.ogg",
+      "resource": "Pixel/audio/swing_medium01",
+      "sourceName": "Swing_Medium01.ogg",
+      "archive": "D:\\elsword-na-2016\\data\\data070.kom",
+      "offset": 17440984,
+      "sha256": "4bfef70748f2dc4f06fc411b008064019b942d6adecc33a2e0c08b4d81991231",
+      "bytes": 6077,
+      "duration": 0.31356,
+      "encoding": "Ogg Vorbis",
+      "byteIdenticalToSelectedTarget": true
+    }
+  ],
+  "clips": [
+    {
+      "id": "idle",
+      "duration": 1,
+      "events": []
+    },
+    {
+      "id": "run",
+      "duration": 0.4666666666666667,
+      "events": []
+    },
+    {
+      "id": "jump",
+      "duration": 1,
+      "events": []
+    },
+    {
+      "id": "attack1",
+      "duration": 0.8,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.1,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z1"
+        }
+      ]
+    },
+    {
+      "id": "attack2",
+      "duration": 0.7666666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.13,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z2"
+        }
+      ]
+    },
+    {
+      "id": "attack3",
+      "duration": 0.8,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.18,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z3"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "duration": 1.9,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.004,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_FLAME_GEYSER"
+        },
+        {
+          "sound": "slash2",
+          "time": 0.44,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_FLAME_GEYSER"
+        },
+        {
+          "sound": "groundhit",
+          "time": 0.817,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_FLAME_GEYSER"
+        }
+      ]
+    },
+    {
+      "id": "hurt",
+      "duration": 0.6666666666666666,
+      "events": []
+    },
+    {
+      "id": "death",
+      "duration": 1.3666666666666667,
+      "events": [
+        {
+          "sound": "down",
+          "time": 0.19,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DAMAGE_DOWN_FRONT"
+        }
+      ]
+    },
+    {
+      "id": "mega-slash",
+      "duration": 1.6613756613756614,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.085714,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_MEGASLASH_MEMO_READY"
+        },
+        {
+          "sound": "slash2",
+          "time": 0.525079,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_MEGASLASH_MEMO_FIRE"
+        }
+      ]
+    },
+    {
+      "id": "flame-geyser",
+      "duration": 1.9,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.004,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_FLAME_GEYSER"
+        },
+        {
+          "sound": "slash2",
+          "time": 0.44,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_FLAME_GEYSER"
+        },
+        {
+          "sound": "groundhit",
+          "time": 0.817,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_FLAME_GEYSER"
+        }
+      ]
+    },
+    {
+      "id": "iron-body",
+      "duration": 1,
+      "events": [
+        {
+          "sound": "elsword_endurance",
+          "time": 0.01,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_ES_ENDURANCE"
+        }
+      ]
+    },
+    {
+      "id": "combo-z1",
+      "duration": 0.8,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.1,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z1"
+        }
+      ]
+    },
+    {
+      "id": "combo-z2",
+      "duration": 0.7666666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.13,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z2"
+        }
+      ]
+    },
+    {
+      "id": "combo-z3",
+      "duration": 0.8,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.18,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z3"
+        }
+      ]
+    },
+    {
+      "id": "combo-z4",
+      "duration": 1.3333333333333333,
+      "events": [
+        {
+          "sound": "powerslash",
+          "time": 0.4,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z4"
+        }
+      ]
+    },
+    {
+      "id": "combo-z-launch",
+      "duration": 1.2333333333333334,
+      "events": [
+        {
+          "sound": "powerslash",
+          "time": 0.35,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_Z4a"
+        }
+      ]
+    },
+    {
+      "id": "combo-z-front",
+      "duration": 1.138888888888889,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.258333,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ELK_ZZZfrontZ"
+        }
+      ]
+    },
+    {
+      "id": "combo-x1",
+      "duration": 0.9,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.2,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_X1"
+        }
+      ]
+    },
+    {
+      "id": "combo-x2",
+      "duration": 1.0666666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.31,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_X2"
+        }
+      ]
+    },
+    {
+      "id": "combo-x-launch",
+      "duration": 1.1,
+      "events": [
+        {
+          "sound": "powerslash",
+          "time": 0.3,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_COMBO_X3a"
+        }
+      ]
+    },
+    {
+      "id": "combo-x3",
+      "duration": 1.2962962962962963,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.288889,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ELK_XXX"
+        }
+      ]
+    },
+    {
+      "id": "combo-x4",
+      "duration": 1.8333333333333333,
+      "events": [
+        {
+          "sound": "slash2",
+          "time": 0.56,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ELK_XXXX"
+        }
+      ]
+    },
+    {
+      "id": "combo-x5",
+      "duration": 1.3333333333333333,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.27,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ELK_XXXXX"
+        }
+      ]
+    },
+    {
+      "id": "dash-z1",
+      "duration": 1.0666666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.23,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DASH_COMBO_Z1"
+        }
+      ]
+    },
+    {
+      "id": "dash-z2",
+      "duration": 1.0333333333333334,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.23,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_KNIGHT_DASH_COMBO_Z2"
+        }
+      ]
+    },
+    {
+      "id": "dash-z3",
+      "duration": 1.3333333333333333,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.27,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_KNIGHT_DASH_COMBO_Z3"
+        }
+      ]
+    },
+    {
+      "id": "dash-z-launch",
+      "duration": 1.3666666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.43,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_KNIGHT_DASH_COMBO_Z3a"
+        }
+      ]
+    },
+    {
+      "id": "dash-zx-charge",
+      "duration": 2.5925925925925926,
+      "events": []
+    },
+    {
+      "id": "dash-zx",
+      "duration": 1.2982456140350878,
+      "events": [
+        {
+          "sound": "slash4",
+          "time": 0.263158,
+          "volume": 0.4,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "Demo thrust-window cue using original Slash4 asset",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "dash-zxx",
+      "duration": 1.727272727272727,
+      "events": [
+        {
+          "sound": "elsword_si_a_rolling_smash2",
+          "time": 0.681818,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ESK_DASH_COMBO_ZXX"
+        }
+      ]
+    },
+    {
+      "id": "dash-x1",
+      "duration": 1.0333333333333334,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.26,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DASH_ATTACK_X"
+        }
+      ]
+    },
+    {
+      "id": "dash-xx-charge",
+      "duration": 2.916666666666667,
+      "events": []
+    },
+    {
+      "id": "dash-xx",
+      "duration": 1.2982456140350878,
+      "events": [
+        {
+          "sound": "slash4",
+          "time": 0.263158,
+          "volume": 0.4,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "Demo thrust-window cue using original Slash4 asset",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "dash-xxx",
+      "duration": 1.727272727272727,
+      "events": [
+        {
+          "sound": "elsword_si_a_rolling_smash2",
+          "time": 0.681818,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ELK_DASH_COMBO_XXX"
+        }
+      ]
+    },
+    {
+      "id": "air-z",
+      "duration": 0.36666666666666664,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.08,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_JUMP_ATTACK_Z"
+        }
+      ]
+    },
+    {
+      "id": "air-x",
+      "duration": 0.4666666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.1,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_JUMP_ATTACK_X"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-z1",
+      "duration": 0.3466666666666667,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.08,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DASH_JUMP_COMBO_Z1"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-z2",
+      "duration": 0.37333333333333335,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.08,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DASH_JUMP_COMBO_Z2"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-z3",
+      "duration": 0.2,
+      "events": [
+        {
+          "sound": "elsword_si_a_rolling_smash1",
+          "time": 0.001,
+          "volume": 0.32,
+          "repeat": 0.2,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ESK_DASH_JUMP_ZZZ"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-z-land",
+      "duration": 0.7333333333333333,
+      "events": [
+        {
+          "sound": "elsword_si_a_rolling_smash2",
+          "time": 0.11,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_ESK_DASH_JUMP_ZZZ_LANDING"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-x1",
+      "duration": 0.3,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.1333,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DASH_JUMP_COMBO_X1"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-x2",
+      "duration": 0.43333333333333335,
+      "events": [
+        {
+          "sound": "powerslash",
+          "time": 0.23,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_KNIGHT_DASH_JUMP_COMBO_X2"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-x3",
+      "duration": 1.4,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.34,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_KNIGHT_DASH_JUMP_COMBO_X3"
+        }
+      ]
+    },
+    {
+      "id": "dash-air-x-land",
+      "duration": 0.6333333333333333,
+      "events": []
+    },
+    {
+      "id": "jump-start",
+      "duration": 0.1,
+      "events": []
+    },
+    {
+      "id": "jump-rise",
+      "duration": 1,
+      "events": []
+    },
+    {
+      "id": "jump-fall",
+      "duration": 1.0333333333333334,
+      "events": []
+    },
+    {
+      "id": "land",
+      "duration": 0.36666666666666664,
+      "events": [
+        {
+          "sound": "step",
+          "time": 0.02,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_JUMP_LANDING"
+        }
+      ]
+    },
+    {
+      "id": "dash-jump",
+      "duration": 0.36666666666666664,
+      "events": [
+        {
+          "sound": "step",
+          "time": 0.02,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DASH_JUMP"
+        }
+      ]
+    },
+    {
+      "id": "launched",
+      "duration": 0.6333333333333333,
+      "events": []
+    },
+    {
+      "id": "fall",
+      "duration": 0.6666666666666666,
+      "events": []
+    },
+    {
+      "id": "knockdown",
+      "duration": 1.3666666666666667,
+      "events": [
+        {
+          "sound": "down",
+          "time": 0.19,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_DAMAGE_DOWN_FRONT"
+        }
+      ]
+    },
+    {
+      "id": "getup",
+      "duration": 0.6333333333333333,
+      "events": []
+    },
+    {
+      "id": "getup-attack",
+      "duration": 1.4333333333333333,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.36,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_STANDUP_ATTACK_FRONT"
+        }
+      ]
+    },
+    {
+      "id": "armor-break",
+      "duration": 0.6666666666666666,
+      "events": [
+        {
+          "sound": "elsword_armor_brake",
+          "time": 0.184,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ESK_ARMOR_BREAK"
+        }
+      ]
+    },
+    {
+      "id": "sonic-blade",
+      "duration": 1.8039215686274512,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.109412,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ELK_SONIC_BLADE"
+        },
+        {
+          "sound": "elsword_si_sa_sonic_blade1",
+          "time": 0.117647,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ELK_SONIC_BLADE"
+        },
+        {
+          "sound": "elsword_si_sa_sonic_blade2",
+          "time": 0.588235,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ELK_SONIC_BLADE"
+        }
+      ]
+    },
+    {
+      "id": "rolling-smash",
+      "duration": 1.0044444444444445,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.022,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH_READY"
+        },
+        {
+          "sound": "landing_meat02",
+          "time": 0.022,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH_READY"
+        },
+        {
+          "sound": "elsword_si_a_rolling_smash1",
+          "time": 0.227333,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH"
+        },
+        {
+          "sound": "elsword_si_a_rolling_smash2",
+          "time": 0.514444,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH_LANDING"
+        }
+      ]
+    },
+    {
+      "id": "windmill",
+      "duration": 2.423188405797102,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.001,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_WINDMILL_START"
+        },
+        {
+          "sound": "elsword_windmillspinend",
+          "time": 1.467536,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_WINDMILL_END"
+        }
+      ]
+    },
+    {
+      "id": "kick",
+      "duration": 0.6,
+      "events": [
+        {
+          "sound": "elsword_kick",
+          "time": 0.01,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_ES_KICK"
+        }
+      ]
+    },
+    {
+      "id": "counter-stance",
+      "duration": 1.2,
+      "events": [
+        {
+          "sound": "revengeready",
+          "time": 0.09,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_REVENGE_WAIT"
+        }
+      ]
+    },
+    {
+      "id": "counter-attack",
+      "duration": 0.8,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.23,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_REVENGE_ATTACK"
+        }
+      ]
+    },
+    {
+      "id": "double-slash",
+      "duration": 5,
+      "events": [
+        {
+          "sound": "slash2",
+          "time": 0.01,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_DOUBLE_SLASH"
+        },
+        {
+          "sound": "energy",
+          "time": 0.01,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_DOUBLE_SLASH"
+        },
+        {
+          "sound": "elsword_doubleslash1",
+          "time": 0.414,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_DOUBLE_SLASH"
+        },
+        {
+          "sound": "elsword_doubleslash2",
+          "time": 1.315,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY4 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_DOUBLE_SLASH"
+        },
+        {
+          "sound": "elsword_doubleslash3",
+          "time": 2.406,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY5 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_DOUBLE_SLASH"
+        }
+      ]
+    },
+    {
+      "id": "spiral-blast",
+      "duration": 2.3666666666666667,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.004,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_SPIRAL_BLAST"
+        },
+        {
+          "sound": "elsword_spiralblast1",
+          "time": 0.32,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_SPIRAL_BLAST"
+        },
+        {
+          "sound": "slash",
+          "time": 1.04,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_SPIRAL_BLAST"
+        },
+        {
+          "sound": "elsword_spiralblast2",
+          "time": 1.1,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY4 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_SPIRAL_BLAST"
+        },
+        {
+          "sound": "elsword_spiralblast3",
+          "time": 1.17,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY5 / ANIM_SPEED",
+          "sourceState": "ESSI_SI2_ES_SPIRAL_BLAST"
+        }
+      ]
+    },
+    {
+      "id": "mega-ready",
+      "duration": 0.4761904761904762,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.085714,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_MEGASLASH_MEMO_READY"
+        }
+      ]
+    },
+    {
+      "id": "mega-charge",
+      "duration": 1.7,
+      "events": []
+    },
+    {
+      "id": "mega-fire",
+      "duration": 1.1851851851851851,
+      "events": [
+        {
+          "sound": "slash2",
+          "time": 0.048889,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_MEGASLASH_MEMO_FIRE"
+        }
+      ]
+    },
+    {
+      "id": "rolling-ready",
+      "duration": 0.22666666666666666,
+      "events": [
+        {
+          "sound": "slash",
+          "time": 0.022,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH_READY"
+        },
+        {
+          "sound": "landing_meat02",
+          "time": 0.022,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH_READY"
+        }
+      ]
+    },
+    {
+      "id": "rolling-loop",
+      "duration": 0.17777777777777778,
+      "events": [
+        {
+          "sound": "elsword_si_a_rolling_smash1",
+          "time": 0.000667,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH"
+        }
+      ]
+    },
+    {
+      "id": "rolling-land",
+      "duration": 0.6,
+      "events": [
+        {
+          "sound": "elsword_si_a_rolling_smash2",
+          "time": 0.11,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_ROLLING_SMASH_LANDING"
+        }
+      ]
+    },
+    {
+      "id": "windmill-start",
+      "duration": 0.36666666666666664,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.001,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_WINDMILL_START"
+        }
+      ]
+    },
+    {
+      "id": "windmill-loop",
+      "duration": 1.1,
+      "events": [
+        {
+          "sound": "elsword_windmillspin",
+          "time": 0,
+          "volume": 0.36,
+          "repeat": 0,
+          "sustain": true,
+          "evidence": "Demo phase binding to the matching original skill SFX; callback emission time unmeasured",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "windmill-end",
+      "duration": 0.9565217391304349,
+      "events": [
+        {
+          "sound": "elsword_windmillspinend",
+          "time": 0.00087,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_WINDMILL_END"
+        }
+      ]
+    },
+    {
+      "id": "awakening",
+      "duration": 1.2,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.01,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_HYPER_MODE"
+        },
+        {
+          "sound": "slash",
+          "time": 0.2,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_HYPER_MODE"
+        },
+        {
+          "sound": "break",
+          "time": 0.83,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_HYPER_MODE"
+        },
+        {
+          "sound": "change",
+          "time": 0.83,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_HYPER_MODE"
+        }
+      ]
+    },
+    {
+      "id": "roll",
+      "duration": 0.4615384615384615,
+      "events": [
+        {
+          "sound": "elsword_kick",
+          "time": 0.007692,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_ES_ROLLING"
+        }
+      ]
+    },
+    {
+      "id": "roll-end",
+      "duration": 0.6666666666666666,
+      "events": [
+        {
+          "sound": "elsword_bodyroll01",
+          "time": 0.033,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_ES_ROLLING_END"
+        },
+        {
+          "sound": "elsword_si_a_rolling_smash3",
+          "time": 0.1,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_SI_A_ES_ROLLING_END"
+        }
+      ]
+    },
+    {
+      "id": "unlimited-blade",
+      "duration": 4.833333333333333,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.004,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "slash4",
+          "time": 0.166,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "slash",
+          "time": 0.433,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY4 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "slash4",
+          "time": 0.666,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY5 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "slash",
+          "time": 0.966,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY6 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "slash",
+          "time": 1.2,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY7 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "slash4",
+          "time": 1.553,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY8 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "energy",
+          "time": 1.56,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        },
+        {
+          "sound": "fire",
+          "time": 1.73,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY10 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE"
+        }
+      ]
+    },
+    {
+      "id": "unlimited-blade-awakened",
+      "duration": 4.833333333333333,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.004,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "slash4",
+          "time": 0.166,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "slash",
+          "time": 0.433,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY4 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "slash4",
+          "time": 0.666,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY5 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "slash",
+          "time": 0.966,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY6 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "slash",
+          "time": 1.2,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY7 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "slash4",
+          "time": 1.553,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY8 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "energy",
+          "time": 1.56,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        },
+        {
+          "sound": "fire",
+          "time": 1.73,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY10 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER"
+        }
+      ]
+    },
+    {
+      "id": "assault-slash",
+      "duration": 1.3333333333333333,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.06,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI1_ES_ASSAULT_SLASH"
+        },
+        {
+          "sound": "slash",
+          "time": 0.27,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI1_ES_ASSAULT_SLASH"
+        },
+        {
+          "sound": "elsword_assaultslash2",
+          "time": 0.3,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI1_ES_ASSAULT_SLASH"
+        }
+      ]
+    },
+    {
+      "id": "triple-geyser",
+      "duration": 1.9,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.004,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        },
+        {
+          "sound": "slash2",
+          "time": 0.74,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        },
+        {
+          "sound": "powerslash",
+          "time": 0.766,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        },
+        {
+          "sound": "groundhit",
+          "time": 0.817,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY5 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        },
+        {
+          "sound": "elsword_flamegeyser",
+          "time": 0.817,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY6 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        },
+        {
+          "sound": "elsword_flamegeyser",
+          "time": 1.047,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY7 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        },
+        {
+          "sound": "elsword_flamegeyser",
+          "time": 1.306,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY8 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_TRIPLE_GEYSER"
+        }
+      ]
+    },
+    {
+      "id": "mortal-blow",
+      "duration": 1.2,
+      "events": [
+        {
+          "sound": "elsword_mortalblow01",
+          "time": 0.001,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_MORTAL_BLOW"
+        },
+        {
+          "sound": "elsword_mortalblow02",
+          "time": 0.272,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ESK_MORTAL_BLOW"
+        }
+      ]
+    },
+    {
+      "id": "impact-smash",
+      "duration": 1.727272727272727,
+      "events": [
+        {
+          "sound": "slash3",
+          "time": 0.136364,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_IMPACT_SMASH"
+        },
+        {
+          "sound": "slash3",
+          "time": 0.5,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_IMPACT_SMASH"
+        },
+        {
+          "sound": "elsword_si_a_rolling_smash2",
+          "time": 0.636364,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_A_ELK_IMPACT_SMASH"
+        }
+      ]
+    },
+    {
+      "id": "armageddon-blade",
+      "duration": 2.1538461538461537,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.003077,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_ARMAGEDDON_BLADE"
+        },
+        {
+          "sound": "elsword_armageddon_blade1",
+          "time": 0.238462,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_ARMAGEDDON_BLADE"
+        },
+        {
+          "sound": "elsword_armageddon_blade2",
+          "time": 0.75,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY4 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_ARMAGEDDON_BLADE"
+        },
+        {
+          "sound": "slash",
+          "time": 1.292308,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_ARMAGEDDON_BLADE"
+        },
+        {
+          "sound": "elsword_armageddon_blade3",
+          "time": 1.368462,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY6 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_ARMAGEDDON_BLADE"
+        },
+        {
+          "sound": "elsword_bladeout",
+          "time": 1.384615,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY8 / ANIM_SPEED",
+          "sourceState": "ESSI_SI3_ES_ARMAGEDDON_BLADE"
+        }
+      ]
+    },
+    {
+      "id": "sandstorm",
+      "duration": 2.1,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.01,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ELK_SAND_STORM"
+        },
+        {
+          "sound": "elsword_sandstorm",
+          "time": 0.8,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_SA_ELK_SAND_STORM"
+        }
+      ]
+    },
+    {
+      "id": "gigantic-slash",
+      "duration": 8.81159420289855,
+      "events": [
+        {
+          "sound": "energy",
+          "time": 0.086957,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY0 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_giganticslash_ready",
+          "time": 0.321739,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY1 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_giganticslash1",
+          "time": 0.86087,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY2 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_giganticslash2",
+          "time": 2.878261,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY3 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_giganticslash4",
+          "time": 2.930435,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY6 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash1",
+          "time": 2.930435,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY17 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash1",
+          "time": 3.217391,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY12 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash1",
+          "time": 3.504348,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY13 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash1",
+          "time": 3.791304,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY14 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash1",
+          "time": 4.078261,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY15 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash1",
+          "time": 4.365217,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY16 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_giganticslash3",
+          "time": 4.721739,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY4 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 4.808696,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY18 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 4.93913,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY19 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.069565,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY20 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.2,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY21 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.330435,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY22 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.46087,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY23 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.591304,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY24 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.721739,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY25 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.852174,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY26 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash2",
+          "time": 5.982609,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY27 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_giganticslash5",
+          "time": 6.286957,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY5 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        },
+        {
+          "sound": "elsword_parasite_slash3",
+          "time": 6.373913,
+          "volume": 0.46,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "target2016 SOUND_PLAY28 / ANIM_SPEED",
+          "sourceState": "ESSI_HA_ELK_GIGANTIC_SLASH"
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "id": "hit",
+      "events": [
+        {
+          "sound": "hitslash",
+          "time": 0,
+          "volume": 0.6,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual damage; demo flesh material",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-heavy",
+      "events": [
+        {
+          "sound": "hit2",
+          "time": 0,
+          "volume": 0.64,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual launch/down contact; demo flesh material",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-flesh",
+      "events": [
+        {
+          "sound": "hitslash",
+          "time": 0,
+          "volume": 0.6,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual flesh contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-flesh-heavy",
+      "events": [
+        {
+          "sound": "hitslash2",
+          "time": 0,
+          "volume": 0.64,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual heavy flesh contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-wood",
+      "events": [
+        {
+          "sound": "hitwood",
+          "time": 0,
+          "volume": 0.48,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual wood/plant contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-wood-heavy",
+      "events": [
+        {
+          "sound": "treasurechest_hit_wooden",
+          "time": 0,
+          "volume": 0.54,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual heavy wood contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-shell",
+      "events": [
+        {
+          "sound": "hitstone",
+          "time": 0,
+          "volume": 0.48,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual shell/stone contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-shell-heavy",
+      "events": [
+        {
+          "sound": "hitstone2",
+          "time": 0,
+          "volume": 0.54,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual heavy shell/stone contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-metal",
+      "events": [
+        {
+          "sound": "hitmetal",
+          "time": 0,
+          "volume": 0.38,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual armored/mechanical contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-metal-heavy",
+      "events": [
+        {
+          "sound": "hitmetal2",
+          "time": 0,
+          "volume": 0.44,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual heavy armored/mechanical contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-spirit",
+      "events": [
+        {
+          "sound": "hit_soul1",
+          "time": 0,
+          "volume": 0.3,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual spirit contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hit-spirit-heavy",
+      "events": [
+        {
+          "sound": "hit_soul2",
+          "time": 0,
+          "volume": 0.35,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual heavy spirit contact; demo material family",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "recovery-pickup",
+      "events": [
+        {
+          "sound": "getitem_common",
+          "time": 0,
+          "volume": 0.48,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual recovery item collected; demo event binding",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "hurt",
+      "events": [
+        {
+          "sound": "kickhit",
+          "time": 0,
+          "volume": 0.52,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "player HP loss; no character voice",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "guard",
+      "events": [
+        {
+          "sound": "metalimpact01",
+          "time": 0,
+          "volume": 0.27,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual armor contact",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "step",
+      "events": [
+        {
+          "sound": "step",
+          "time": 0,
+          "volume": 0.16,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "distance-driven grounded step cadence",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "jump",
+      "events": [
+        {
+          "sound": "footattack",
+          "time": 0,
+          "volume": 0.23,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "takeoff event; authored presentation mapping",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "land",
+      "events": [
+        {
+          "sound": "jumpland",
+          "time": 0,
+          "volume": 0.3,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "actual floor contact",
+          "sourceState": ""
+        }
+      ]
+    },
+    {
+      "id": "enemy-swing",
+      "events": [
+        {
+          "sound": "swing_medium01",
+          "time": 0,
+          "volume": 0.22,
+          "repeat": 0,
+          "sustain": false,
+          "evidence": "monster attack clip entry; generic physical swing mapping",
+          "sourceState": ""
+        }
+      ]
+    }
+  ],
+  "voiceReferencesOmitted": [
+    {
+      "state": "ESSI_SI2_ES_FLAME_GEYSER",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_FlameGeyser.ogg"
+    },
+    {
+      "state": "ESSI_DAMAGE_DOWN_FRONT",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_DamageScream03.ogg"
+    },
+    {
+      "state": "ESSI_SI_A_MEGASLASH_MEMO_READY",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_MegaSlash.ogg"
+    },
+    {
+      "state": "ESSI_SI2_ES_FLAME_GEYSER",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_FlameGeyser.ogg"
+    },
+    {
+      "state": "ESSI_COMBO_Z4",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout01.ogg"
+    },
+    {
+      "state": "ESSI_COMBO_Z4a",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout05.ogg"
+    },
+    {
+      "state": "ESSI_COMBO_X3a",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout01.ogg"
+    },
+    {
+      "state": "ESSI_ESK_DASH_COMBO_ZX",
+      "field": "SOUND_PLAY0",
+      "name": "ElswordVoice_Shout03.ogg"
+    },
+    {
+      "state": "ESSI_DASH_ATTACK_X",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout05.ogg"
+    },
+    {
+      "state": "ESSI_ELK_DASH_COMBO_XX",
+      "field": "SOUND_PLAY0",
+      "name": "ElswordVoice_Shout03.ogg"
+    },
+    {
+      "state": "ESSI_KNIGHT_DASH_JUMP_COMBO_X2",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout01.ogg"
+    },
+    {
+      "state": "ESSI_DAMAGE_AIR_UP",
+      "field": "SOUND_PLAY0",
+      "name": "ElswordVoice_DamageScream01.ogg"
+    },
+    {
+      "state": "ESSI_DAMAGE_DOWN_FRONT",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_DamageScream03.ogg"
+    },
+    {
+      "state": "ESSI_SA_ELK_SONIC_BLADE",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_SonicBlade.ogg"
+    },
+    {
+      "state": "ESSI_A_ELK_ROLLING_SMASH_READY",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout02.ogg"
+    },
+    {
+      "state": "ESSI_SA_ESK_WINDMILL_START",
+      "field": "SOUND_PLAY0",
+      "name": "ElswordVoice_WindMill.ogg"
+    },
+    {
+      "state": "ESSI_SI_A_ES_KICK",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout07.ogg"
+    },
+    {
+      "state": "ESSI_REVENGE_ATTACK",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout05.ogg"
+    },
+    {
+      "state": "ESSI_SA_ESK_DOUBLE_SLASH",
+      "field": "SOUND_PLAY2",
+      "name": "ElswordVoice_DoubleSlash.ogg"
+    },
+    {
+      "state": "ESSI_SI2_ES_SPIRAL_BLAST",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_SpiralBlast.ogg"
+    },
+    {
+      "state": "ESSI_SI_A_MEGASLASH_MEMO_READY",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_MegaSlash.ogg"
+    },
+    {
+      "state": "ESSI_A_ELK_ROLLING_SMASH_READY",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout02.ogg"
+    },
+    {
+      "state": "ESSI_SA_ESK_WINDMILL_START",
+      "field": "SOUND_PLAY0",
+      "name": "ElswordVoice_WindMill.ogg"
+    },
+    {
+      "state": "ESSI_SI_A_ES_ROLLING",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Shout07.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_UNLIMITED_BLADE",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_UnlimitedBlade.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_UNLIMITED_BLADE",
+      "field": "SOUND_PLAY9",
+      "name": "ElswordVoice_Shout03.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_UnlimitedBlade.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_UNLIMITED_BLADE_HYPER",
+      "field": "SOUND_PLAY9",
+      "name": "ElswordVoice_Shout03.ogg"
+    },
+    {
+      "state": "ESSI_SI1_ES_ASSAULT_SLASH",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_AssaultSlash.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_TRIPLE_GEYSER",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_TripleGeyser.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_TRIPLE_GEYSER",
+      "field": "SOUND_PLAY4",
+      "name": "ElswordVoice_Shout01.ogg"
+    },
+    {
+      "state": "ESSI_SA_ESK_MORTAL_BLOW",
+      "field": "SOUND_PLAY2",
+      "name": "ElswordVoice_Shout09.ogg"
+    },
+    {
+      "state": "ESSI_A_ELK_IMPACT_SMASH",
+      "field": "SOUND_PLAY0",
+      "name": "ElswordVoice_Shout02.ogg"
+    },
+    {
+      "state": "ESSI_SI3_ES_ARMAGEDDON_BLADE",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_Armageddon_blade.ogg"
+    },
+    {
+      "state": "ESSI_SA_ELK_SAND_STORM",
+      "field": "SOUND_PLAY1",
+      "name": "ElswordVoice_SandStorm.ogg"
+    },
+    {
+      "state": "ESSI_HA_ELK_GIGANTIC_SLASH",
+      "field": "SOUND_PLAY7",
+      "name": "ElswordVoice_GiganticSlash1.ogg"
+    },
+    {
+      "state": "ESSI_HA_ELK_GIGANTIC_SLASH",
+      "field": "SOUND_PLAY8",
+      "name": "ElswordVoice_GiganticSlash2.ogg"
+    },
+    {
+      "state": "ESSI_HA_ELK_GIGANTIC_SLASH",
+      "field": "SOUND_PLAY9",
+      "name": "ElswordVoice_Shout06.ogg"
+    },
+    {
+      "state": "ESSI_HA_ELK_GIGANTIC_SLASH",
+      "field": "SOUND_PLAY10",
+      "name": "ElswordVoice_Shout03.ogg"
+    }
+  ],
+  "generatedBy": "tools/art/extract_native_audio.py"
+}

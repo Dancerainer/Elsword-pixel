@@ -1,0 +1,1 @@
+namespace ElswordPixel {internal static class UnifiedSourceStagePinsV21 {internal const string Descriptor="864b9b0cbead4b0ba7cbe2f4a62acbed0cb3e135e18e73b0592a3e0768eaae21";internal const string HistoricalAssets=@"D:\elsword_pixel\unity\Assets";internal const string LiveAssets=@"D:\elsword_pixel\unity\Prototypes\core-hard-gpu-v21-r1\Assets";}}

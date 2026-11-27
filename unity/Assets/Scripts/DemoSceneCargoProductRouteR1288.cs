@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+namespace ElswordPixel {
+ public sealed partial class DemoScene {
+  const string CargoProductRouteR1288="Dungeon_Besma_Air_Ship_Normal";
+  bool cargoProductMainBaselineR1288,cargoProductAssetsPresentR1288;CandidateDungeonArt cargoProductMapRowR1288;string cargoProductMenuMessageR1288="";
+  void CaptureCargoProductMainBaselineR1288(CatalogDigest digest,ArtCatalog original){cargoProductMainBaselineR1288=digest.Matches(41191929,Mine2ProductResourceIndexR1211.CatalogSha256)&&original!=null&&original.dungeons!=null&&original.dungeons.Length==12&&original.stages!=null&&original.stages.Length==35&&original.npcContentSets!=null&&original.npcContentSets.Length==8;}
+  void RequireCargoProductMainBaselineR1288(){CargoProductNeedR1288(cargoProductMainBaselineR1288&&CurrentCatalogDigest().Matches(41191929,Mine2ProductResourceIndexR1211.CatalogSha256),"original Main raw catalog baseline unavailable");}
+  static CargoProductResourceIndexR1261 CreateCargoProductIndexR1288(){return new CargoProductResourceIndexR1261(key=>{var asset=Resources.Load<TextAsset>(key);return asset?asset.bytes:null;});}
+  void RequireCargoProductMusicBindingsR1288(){for(int i=0;i<3;i++){SceneMusicAsset binding;string id=CargoProductInputBindingsR1261.RoomMusicIds[i];CargoProductNeedR1288(sceneMusicAssets.TryGetValue(id,out binding)&&binding.resource==CargoProductInputBindingsR1261.RoomMusicResources[i]&&Resources.Load<AudioClip>(binding.resource),"original borrowed Main BGM unavailable "+id);}}
+  void ValidateCargoProductInstalledR1288(CargoProductResourceIndexR1261 index){
+   var fx=Resources.Load<Shader>("Pixel/Shaders/CargoSourceFxV21");var air=Resources.Load<Shader>("Pixel/Shaders/CargoAirPaletteV21");CargoProductNeedR1288(Resources.Load<Shader>("Pixel/Shaders/NativeWorld")&&Resources.Load<Shader>("Pixel/Shaders/NativeScreenBackdropV25")&&fx&&fx.isSupported&&fx.name=="ElswordPixel/CargoSourceFxV21"&&air&&air.isSupported&&air.name=="ElswordPixel/CargoAirControlledPaletteV21","exact Cargo Resources shaders absent");var plan=index.BuildDataPlan();var directorAudio=new CargoDirectorAudioResourceIndexR1296();directorAudio.RequireOriginalClock(plan.directorClock);foreach(var row in directorAudio.Bindings)CargoProductNeedR1288(Resources.Load<AudioClip>(row.resource),"original director PCM Resources absent "+row.sourceName);var audio=new CargoProductAudioResourceIndexR1280();foreach(var row in audio.Bindings)CargoProductNeedR1288(Resources.Load<AudioClip>(row.resource),"original Cargo PCM Resources absent "+row.id);for(int i=0;i<3;i++)CargoProductNeedR1288(Resources.Load<AudioClip>(CargoProductInputBindingsR1261.RoomMusicResources[i]),"original Main BGM Resources absent "+CargoProductInputBindingsR1261.RoomMusicIds[i]);
+  }
+  bool IsCargoProductMapRowR1288(CandidateDungeonArt row){return row!=null&&ReferenceEquals(row,cargoProductMapRowR1288)&&row.id=="bethma-cargo-airship"&&row.region=="bethma"&&row.sourceGraph==CargoProductRouteR1288;}
+  void AppendCargoProductMapRouteR1288(string externalCandidatePath){
+   cargoProductMapRowR1288=null;cargoProductAssetsPresentR1288=false;cargoProductMenuMessageR1288="";if(!string.IsNullOrEmpty(externalCandidatePath))return;
+   // Default Main remains unchanged when this optional route's original model is not installed.
+   var marker=Resources.Load<TextAsset>("Pixel/dungeons/bethma-cargo-airship/source/"+CargoProductInputBindingsR1261.ModelBeforeAI);if(!marker)return;
+   try{
+    foreach(var row in mapDungeons)CargoProductNeedR1288(row.id!="bethma-cargo-airship"&&row.sourceGraph!=CargoProductRouteR1288,"conflicting existing Cargo menu identity");RequireCargoProductMainBaselineR1288();var index=CreateCargoProductIndexR1288();var model=CargoProductTypedJsonR1261.Read<CargoProductModelR1261>(index.ReadByOriginalSha256(CargoProductInputBindingsR1261.ModelBeforeAI));CargoProductNeedR1288(model.rooms.Length==3,"original Cargo three rooms");
+    var rooms=new CandidateRoomArt[3];int zones=0;for(int i=0;i<3;i++){var r=model.rooms[i];int count=r.encounters.Length;zones+=count;rooms[i]=new CandidateRoomArt{id=r.sourceWorldId,width=r.width,zones=count,spawnCount=new[]{33,32,2}[i],bgm=CargoProductInputBindingsR1261.RoomMusicIds[i],bgmAvailable=false};}CargoProductNeedR1288(zones==5,"original Cargo five encounters");
+    try{CheckMenuProductIndex(index,()=>ValidateCargoProductInstalledR1288(index));cargoProductAssetsPresentR1288=true;}catch(Exception e){cargoProductMenuMessageR1288="CONTENT NOT INSTALLED";Debug.LogWarning("Cargo Resources unavailable: "+e.Message);}finally{if(!ReferenceEquals(preparedMobileIndex,index))index.DropByteCache();}
+    cargoProductMapRowR1288=new CandidateDungeonArt{id="bethma-cargo-airship",title="CARGO AIRSHIP",description="Board the Cargo Airship.",region="bethma",sourceGraph=CargoProductRouteR1288,count=3,combatZones=5,runtimeIndex=-1,runtimeAdmitted=false,rooms=rooms};mapDungeons.Add(cargoProductMapRowR1288);
+   }catch(Exception e){cargoProductMapRowR1288=null;cargoProductAssetsPresentR1288=false;cargoProductMenuMessageR1288="CONTENT UNAVAILABLE";Debug.LogException(e);}
+  }
+  bool TryEnterCargoProductMapRouteR1288(){var row=mapSelected>=0&&mapSelected<mapDungeons.Count?mapDungeons[mapSelected]:null;if(mapRegion!="bethma"||!IsCargoProductMapRowR1288(row))return false;if(cargoProductAssetsPresentR1288&&!cargoProductSessionR1288){try{BeginCargoProductR1288();}catch(Exception e){cargoProductMenuMessageR1288="CONTENT COULD NOT BE LOADED";Debug.LogException(e);RenderMenus();}}return true;}
+  void RenderCargoProductMapSelectionR1288(){
+   if(openMenu!="dungeons")return;var selected=mapSelected>=0&&mapSelected<mapDungeons.Count?mapDungeons[mapSelected]:null;for(int i=0;i<MapPageSize;i++){int at=mapPage*MapPageSize+i;if(at>=mapVisible.Count)continue;var row=mapDungeons[mapVisible[at]];if(IsCargoProductMapRowR1288(row))TextValue("Dungeon Boss "+i,cargoProductSessionR1288?"LOADING...":cargoProductAssetsPresentR1288?"READY TO ENTER":"CONTENT NOT INSTALLED");}
+   if(!IsCargoProductMapRowR1288(selected)||mapRegion!="bethma")return;bool ready=cargoProductAssetsPresentR1288&&!cargoProductSessionR1288;TextValue("Dungeon Enter Text",cargoProductSessionR1288?"LOADING...":ready?"ENTER DUNGEON":"CONTENT NOT INSTALLED");images["Dungeon Enter"].color=C(ready?0x476b61u:0x293944u);TextValue("Dungeon Status",cargoProductSessionR1288?"LOADING...":string.IsNullOrEmpty(cargoProductMenuMessageR1288)?(ready?"READY TO ENTER":"CONTENT NOT INSTALLED"):cargoProductMenuMessageR1288);TextValue("Dungeon Route","AREA 1\n\nAREA 2\n\nAREA 3");for(int i=0;i<3;i++)Visible("Dungeon BGM "+i,false);
+  }
+ }
+}
